@@ -18,3 +18,7 @@ Luego se comprueba que esté cargado el módulo `btusb`
 
 Paquetes iniciales (faltan muchos)
 - `nemo, nano, fastfetch`
+
+### Themes
+- Iconos: "Tela icon theme"
+- Cursor: "Bibata Modern Classic"
