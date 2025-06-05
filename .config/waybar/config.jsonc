@@ -3,16 +3,17 @@
 
     "layer": "bottom",
     "position": "top",
-    "mod": "dock",
+    "mode": "dock",
     "height": 35,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
+    "reload_style_on_change": true,
 
 
 	"modules-left": ["custom/left","custom/rofi","custom/space","hyprland/window","custom/right","custom/left","temperature","backlight","cpu","custom/right"],
 	"modules-center": ["custom/left","hyprland/workspaces","custom/right"],
-	"modules-right": ["custom/left","pulseaudio","battery","tray","custom/right","custom/left","network","clock","custom/right",],
+	"modules-right": ["custom/left","network","tray","custom/right","custom/left","pulseaudio","battery","clock","custom/power","custom/right"],
 
 
 "hyprland/window": {
@@ -48,8 +49,8 @@
 "temperature": {
     // "thermal-zone": 2,
     // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-    // "critical-threshold": 80,
-    // "format-critical": "{temperatureC}°C ",
+    "critical-threshold": 80, //°C
+    "format-critical": "{temperatureC}°C ",
     "format": "{temperatureC}°C "
 },
 
@@ -67,7 +68,9 @@
 	"disable-scroll": true,
     "all-outputs": true,
     "on-click": "activate",
-    "persistent_workspaces": {
+    //"show-special": true,
+    "persistent-workspaces": {
+    	//"*": 5,
 		"1": [],
         "2": [],
         "3": [],
@@ -110,9 +113,11 @@
 },
 
 "tray": {
-   // "format": "{icon}"
+	"format": "{icon}",
 	"icon-size": 20,
-    "spacing": 9
+    "spacing": 9,
+  //"show-passive-items": true,
+  //"format-icons":{"Passive": "AAA", "Active": "BBB", "NeedsAttention": "CCC"}
 },
 
 "clock": {
@@ -133,6 +138,18 @@
     ]
 },
 
+"custom/power": {
+	"format": " ",
+	"tooltip": false,
+	"menu": "on-click",
+	"menu-file": "~/.config/waybar/power_menu.xml",
+	"menu-actions": {
+		"shutdown": "shutdown",
+		"reboot": "reboot",
+		"suspend": "systemctl suspend",
+		"hibernate": "systemctl hibernate"
+	}
+},
 
 // modules for padding //
 
