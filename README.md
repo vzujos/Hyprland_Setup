@@ -13,6 +13,11 @@ Luego se comprueba que esté cargado el módulo `btusb`
 - `modprobe btusb`
 - `systemctl start bluetooth.service`
 
+## Internet
+para volver a activar la interntet:
+- `sudo pacman -S networkmanager`
+- `sudo systemctl enable NetworkManager`
+
 ## Instalación inicial
 - Falta agregar la configuración inicial al momento de instalar Archlinux
 
