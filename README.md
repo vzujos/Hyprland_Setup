@@ -43,6 +43,9 @@ Paquetes iniciales (faltan muchos)
 
 
 ---
+## Installing Arch Linux
+
+---
 ## References
 Installing Arch Linux
 : https://www.youtube.com/watch?v=8YE1LlTxfMQ
