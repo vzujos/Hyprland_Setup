@@ -18,6 +18,9 @@ para volver a activar la interntet:
 - `sudo pacman -S networkmanager`
 - `sudo systemctl enable NetworkManager`
 
+Para conectarse a una nueva red:
+`nmtui`
+
 ## Instalación inicial
 - Falta agregar la configuración inicial al momento de instalar Archlinux
 
@@ -37,3 +40,18 @@ Paquetes iniciales (faltan muchos)
 - en clock, ".config/eww/scripts/toogle_control_center.sh"
 - "Tray" no funciona
 - "Power" no funciona
+
+
+---
+## References
+Installing Arch Linux
+: https://www.youtube.com/watch?v=8YE1LlTxfMQ
+
+Installing Hyprland
+: https://www.youtube.com/watch?v=2CP_9-jCV6A
+
+Initial customizing Hyprland
+: https://www.youtube.com/watch?v=KA1jv40q9lQ
+
+Using Gnu Stow
+: https://www.youtube.com/watch?v=NoFiYOqnC4o
