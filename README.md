@@ -1,5 +1,5 @@
 # Hyprland-Setup
-***Mi setup de Arch con Hyprland***
+***Info inicila para instalación Arch con Hyprland***
 
 ## Configuraciones listas:
 - Hypridle
