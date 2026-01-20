@@ -1,8 +1,11 @@
 # Hyprland-Setup
-***Info inicila para instalación Arch con Hyprland***
+***Info inicial para instalación Arch con Hyprland***
 
 ## Configuraciones listas:
 - Hypridle
+- Hyprlock
+## Configuraciones pendientes:
+- Cambiar Background de bloqueo por el actual
 - Hyprpaper (falta guardar y configurar wallpapers)
 - actualwallpaper.sh (sirve para cambiar wallpapers automaticamente)
 
@@ -41,9 +44,9 @@ Paquetes iniciales (faltan muchos)
 - "Tray" no funciona
 - "Power" no funciona
 
-
----
-## Installing Arch Linux
+## Trabajos (muy) a futuro:
+- Ajustar fingerprint en hyprlock
+- Agrgar boton de apagado en hyprlock
 
 ---
 ## References
