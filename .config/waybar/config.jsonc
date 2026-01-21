@@ -10,11 +10,20 @@
     "gtk-layer-shell": true,
     "reload_style_on_change": true,
 
-
 	"modules-left": ["custom/left","custom/rofi","custom/space","hyprland/window","custom/right","custom/left","temperature","backlight","cpu","custom/right"],
 	"modules-center": ["custom/left","hyprland/workspaces","custom/right"],
-	"modules-right": ["custom/left","network","tray","custom/right","custom/left","pulseaudio","battery","clock","custom/power","custom/right"],
-
+	"modules-right": [
+		"custom/left",
+		"network",
+		"tray",
+		"custom/right",
+		"custom/left",
+		"pulseaudio",
+		"battery",
+		"clock",
+		"custom/power",
+		"custom/right"
+	],
 
 "hyprland/window": {
 	"rewrite": {
