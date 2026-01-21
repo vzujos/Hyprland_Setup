@@ -27,29 +27,29 @@ Ahora solo se instala y se espera. Al final preguntará si queremos entrar al si
 
 **Ahora se puede configurar el bluetooth desde apps**
 
-## First Steps
+## Paquetes iniciales
 
 Se debe correr en la terminal:
 - `sudo pacman -S kitty hyprland sddm`
 - `sudo systemctl enable sddm.service`
-- `sudo pacman -S nemo wofi git`
-- `sudo pacman -S nano less man-db fastfetch`
+- `sudo pacman -S nemo wofi nano man-db fastfetch`
+- `sudo pacman -S less git`
+- `sudo pacman -S hyprlock hyprpaper hypridle`
+- `sudo pacman -S waybar swaync`
+- `sudo pacman -S otf-font-awesome`
 
 ## Begin Hyprland
 
 Se hace un reboot y al hacer login, se cambia el display manager a hyprland.
 Se instala:
-- `sudo pacman -S hyprlock hyprpaper hypridle`
-- `sudo pacman -S waybar otf-font-awesome swaync`
+
 - `git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
 - `yay -S hyprshot`
-- ` yay -S librewolf-bin` # web browser
+- ` yay -S librewolf-bin`
 Esto es para ajustar el brillo
 - `sudo pacman -S brightnessctl`
 Esto para hacer copy-paste general
 - `sudo pacman -S wl-clipboard` (intentar que funcione nano antes de usarlo)
-
-
 
 Todas las configuraciones de hyprland se hacen en:
 `~/.config/hypr/hyprland.conf`
@@ -76,7 +76,7 @@ Desde aqui, se sigue la instalación (cuidado que instala drivers de nvidia), y 
 ### Otros útiles
 - fastfetch, less, man-db, wev
 - libnotify (notify-send "texto")
-- qt5-wayland, qt6 wayland (estos aun no)
+
 
 Recordar hacer: 
 `sudo pacman -Syu` Para actualizar los repositorios, y luego poner los drivers con
