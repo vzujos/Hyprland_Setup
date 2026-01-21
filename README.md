@@ -25,10 +25,9 @@ Para conectarse a una nueva red:
 `nmtui`
 
 ### Themes
-Estos archivos se guarda en los directorios correspondientes
-- Iconos (`.icons/Icon`): "Tela icon theme"
-- Cursor (`.icons/Cursor`): "Bibata Modern Classic"
-- Fonts (`.local/share/fonts`): "Miracode", "otf-font-awesome" (creo)
+- Iconos (`~/.local/share/icons/Icon`): "Tela icon theme"
+- Cursor (`~/.local/share/icons/Cursor`): "Bibata Modern Classic"
+- Fonts (`~/.local/share/fonts`): "Miracode", "otf-font-awesome" (creo)
 
 ## Falta completar
 ### Waybar/config.jsonc
