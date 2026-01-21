@@ -1,13 +1,18 @@
 # Installing Arch
+
 Lo primero es descargar la .iso y confirmar su integridad.
 Flashear en una usb y bootear desde ahí (o correr la .iso directo si se está en un virtual environment).
 - `Enter` en la primera opción.
 Cuando termine la configuración inicial y se active la terminal, habrá que conectarse a internet (si se está en un VM, saltar este paso).
+
 ## Internet connection
+
 - Escribir `iwctl`, `device list`.
 - Luego `station wlan0 scan`, `station wlan0 get-networks`.
 - `station wlan0 connect "tu red"`, y luego la contraseña si tuviera. Para comprobar la señal se usa: `station wlan0 show`. Al final poner `exit`.
+
 ## Archinstall setup
+
 - Escribir: `archinstall`. Va a aparecer un script de configuración de instalación con las siguientes opciones:
 - `Locales`: en distribución de teclado, poner `es`.
 -  `Mirrors`: seleccionar la región más cercana, y el repositorio adicional `multilib`.
@@ -20,25 +25,25 @@ Cuando termine la configuración inicial y se active la terminal, habrá que con
 Ahora solo se instala y se espera. Al final preguntará si queremos entrar al sistema, ponemos `yes`.
 (En este momento ya tenemos funcionando ArchLinux).
 
-
-==Ahora parece que se puede configurar el bluetooth desde apps== 
-- Esta vez, activé el bluetooth y printing, pero se me fue network config.
-- **Revisar cómo funciona** 
+**Ahora se puede configurar el bluetooth desde apps**
 
 ## First Steps
+
 Se debe correr en la terminal:
 - `sudo pacman -S kitty hyprland sddm`
 - `sudo systemctl enable sddm.service`
 - `sudo pacman -S nemo wofi git`
 - `sudo pacman -S nano less man-db fastfetch`
+
 ## Begin Hyprland
+
 Se hace un reboot y al hacer login, se cambia el display manager a hyprland.
 Se instala:
 - `sudo pacman -S hyprlock hyprpaper hypridle`
 - `sudo pacman -S waybar otf-font-awesome swaync`
 - `git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
 - `yay -S hyprshot`
-- ` yay -S librewolf-bin`
+- ` yay -S librewolf-bin` # web browser
 Esto es para ajustar el brillo
 - `sudo pacman -S brightnessctl`
 Esto para hacer copy-paste general
@@ -50,7 +55,6 @@ Todas las configuraciones de hyprland se hacen en:
 `~/.config/hypr/hyprland.conf`
 - `$fileManager = nemo`
 - `exec-once waybar & swaync`
-
 `~/.config/hypr/hyprlock.conf`
 `~/.config/hypr/hypridle.conf`
 
