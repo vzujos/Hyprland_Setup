@@ -1,0 +1,190 @@
+Proton cuenta:
+$$i?Fg:m2[[dbHZx
+
+LabChart Lightning:
+dxjdug2952@zudpck.com - Poiuytrewq12@@@@
+
+
+Como hacer una app para ganar dinero:
+
+1. Buscar una idea de app para copiar
+    1.1. Ya está validado
+    1.2. Hay que irerar y agregar features buenas
+    1.3 Primero hay que crearla, y despues se diferencia
+2. Aprende a hacer apps
+    2.0 python, expo (para mobile), o next.js-versel
+    2.1 supabase para backend
+    2.2 stripe para payment
+3. How to market (es la parte dificil)
+    3.1 advertising en reddit o ig - busca personas que tengan un problema que la app lo soluciona
+    3.2 Algo de search engine optimization
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%% Archlinux Hypr %%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+Para Archlinux debo conseguir como mínimo:
+
+Sistema:
+- GUI con internet, bluetooth, sonido, hora, teclado, batería, calendario popup, botones startup
+- GUI system temperatura, cpu, memorias, v network, disc usage analyzer, cheatsheet
+- 4 escritorios (trabajo, juegos, musica, misc)
+- conf de cámara y microfono, screenshot, click derecho
+- calendario google en pantalla
+
+Apps:
+- rhythmbox, timeshift, doc viewer, cheese
+- alguna cosa para Excel.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%% THEME LINUX MINT %%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+- Mouse: Bibata-Modern-Classic
+- Desktop-theme: Orchidea
+
+%%%%%%%%%%%%
+%%% Apps %%%
+%%%%%%%%%%%%
+
+- Floorp
+- Freecad, Blender, FEBio, Paraview
+- Obsidian, Zoom, Steam, Spotify, Discord
+- Gimp, Inkscape, Audacity, VLC, Calibre
+- VSCode, Cursor
+- ¿Conky?
+
+%%%%%%%%%%%%%%%%%
+%%% Programas %%%
+%%%%%%%%%%%%%%%%%
+
+- Nemo % gestor de archivos
+- Floorp % navegador
+- Nano % editor de texto
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Programa para imagenes %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Image visors:
+1- imv
+2- gwenview
+
+Image editors:
+1- Pinta
+1- Krita
+2- GIMP
+3- Mypaint [lienzo infinito]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Programa para audios %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Audio Players:
+- Amberol — Small and simple sound and music player that is well integrated with GNOME.
+- Lollypop — A GNOME music player.
+- Nulloy — Music player with a waveform progress bar.
+- Pragha — A lightweight two-panel GTK music manager written in C.
+- Quod Libet — Audio player written with GTK, Python and GStreamer with support for regular expressions in playlists.
+- Rhythmbox — GTK clone of iTunes, used by default in GNOME.
+- Sayonara — Small, clear and fast audio player for Linux written in C++, uses the Qt framework.
+- Strawberry — Fork of Clementine aimed at audio enthusiasts and music collectors. Uses Qt6.
+- Tauon Music Box — Modern, comfortable and streamlined music player for the playback of your music collection.
+- DeaDBeeF — Light and fast music player with many features, no GNOME or KDE dependencies, supports console-only, as well as a GTK GUI, comes with many plugins, and has a metadata editor.
+- gmusicbrowser — Open-source jukebox for large collections of MP3/OGG/FLAC files.
+- Qmmp — Qt-based multimedia player with a user interface that is similar to Winamp or XMMS.
+
+
+Music tag editors:
+- EasyTag — Utility for viewing, editing and writing ID3 tags of music files, supports many audio formats.
+- Ex Falso — Cross-platform free and open source audio tag editor and library organizer. Run with exfalso.
+- Kid3 — MP3, Ogg/Vorbis, FLAC, MPC, MP4/AAC, MP2, Speex, TrueAudio, WavPack, WMA, WAV and AIFF files tag editor.
+- NickvisionTagger — GTK Music file tag editor. Can load tags from MusicBrainz database. Works with mp3, ogg, flac, wma, and wav. Convert filenames to tags and tags to filenames.
+- Puddletag — Replacement for the famous MP3tag for Windows.
+
+
+Audio converters:
+- Flacon — Extracts individual tracks from one big audio file containing the entire album of music and saves them as separate audio files.
+- SoundConverter — A graphical application to convert audio files into different formats.
+- soundKonverter — Qt-based GUI front-end to various audio converters.
+
+
+Audio editors:
+1- Audacity — Program that lets you manipulate digital audio waveforms.
+2- ocenaudio — Proprietary cross-platform, easy to use, fast and functional audio editor.
+
+
+Audio analyzers:
+- Friture — Real-time audio analyzer.
+- Sonic Visualiser — Viewing, analyzing, and annotating the contents of music audio files.
+- Spek — A barebones interface for ffmpeg's spectogram png output, helps to analyse your audio files by showing their spectrogram.
+- FMIT — Graphical utility for tuning your musical instruments, with error and volume history and advanced features.
+- SongRec — Unofficial Shazam client to recognize audio from an arbitrary audio file or from the microphone, written in Rust.
+
+
+Music ScoreWriters:
+1- MuseScore — Create, playback, and print sheet music.
+2- TuxGuitar — Multitrack guitar tablature editor and player.
+
+
+Audio visualizers:
+1- C.A.V.A. — Console-based audio visualizer for ALSA, MPD and PulseAudio.
+2- GLava — OpenGL audio spectrum visualizer. Its primary use case is for desktop windows or backgrounds.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Programa para videos %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Video players:
+- Clapper — Media player built for the GNOME desktop environment using GTK4 toolkit and powered by GStreamer.
+- Celluloid — Simple GTK frontend for mpv.
+- Haruna Video Player — Qt/QML video player built on top of mpv.
+- mpv — Very basic GUI for mpv.
+- VLC media player — Middleweight video player with support for a wide variety of audio and video formats.
+- Kodi — Media player and entertainment hub for digital media.
+- Kaffeine — Very versatile KDE media player that, by default, utilizes VLC as its backend and has excellent support of digital TV (DVB-T, DVB-C, DVB-S).
+
+
+Video editors:
+1- Kdenlive — Non-linear video editor designed for basic to semi-professional work. Part of kde-multimedia.
+2- Shotcut — Shotcut is a free, open source, cross-platform video editor.
+3- Flowblade — Multitrack non-linear video editor for Linux, designed to provide a fast, robust editing experience.
+- Blender — Fully integrated 3D graphics creation suite with a built-in non-linear video editor.
+
+
+Camara web:
+- Webcamoid — Full featured webcam suite.
+- Guvcview — Simple interface for capturing and viewing video from v4l2 devices.4
+- Kamoso — Webcam recorder from KDE community. Part of kde-multimedia.
+- GNOME Camera — Take pictures and videos. Part of gnome.
+- cameractrls — Command line and graphical application for configuring v4l2 devices.
+- v4l-utils — Provides a series of utilities for media devices.
+- MJPG-streamer — Command line application which can be used to stream M-JPEG over an IP-based network from a webcam to various types of viewers.
+- Motion — Highly configurable program that monitors video signals from many types of cameras. It is able to detect if a significant part of the picture has changed; in other words, it can detect motion.
+
+    
+%%%%%%%%%%%%%%%%
+%%% Metadata %%%
+%%%%%%%%%%%%%%%%
+
+- ExifTool — Command-line application for reading, writing and editing meta information in a wide variety of files.
+- jExifToolGUI — Java/Swing graphical frontend for ExifTool, which reads and writes all kind of metadata tags from/to image files.
+
+
+
+Can you make a comparison between audio analyzers for linux to search for the overall best and wich ones i should avoid? This is the list of programs:
+
+
