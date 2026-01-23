@@ -37,7 +37,7 @@ Audio converters:
 
 Audio editors:
 1. Audacity — Program that lets you manipulate digital audio waveforms.
-2. FALTA ALGO AQUI AYUDAAA
+2. oceanaudio — Propietary cross-platform, easy to use, fast and functional audio editor.
 
 Audio analyzers:
 - Friture — Real-time audio analyzer.
@@ -80,7 +80,6 @@ Camara web:
 
 
 ## Metadata
-
 
 - ExifTool — Command-line application for reading, writing and editing meta information in a wide variety of files.
 - jExifToolGUI — Java/Swing graphical frontend for ExifTool, which reads and writes all kind of metadata tags from/to image files.
