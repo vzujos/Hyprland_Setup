@@ -131,18 +131,9 @@ https://wiki.archlinux.org/title/List_of_applications
 ## Others
 - Typst
 - Zotero
-
+- Timeshift
 
 # Otra seccion
-
-## File managers
-1. Dolphin
-    - Con la opción de jpeg creo
-2. Thunar
-3. Nemo
-
-
----
 
 ## Metadata
 
@@ -151,10 +142,87 @@ https://wiki.archlinux.org/title/List_of_applications
 - mat2 — Metadata removal tool, supporting a wide range of commonly used file formats.
 - MediaInfo — Convenient unified display of the most relevant technical and tag data for video and audio files.
 
+
+desde aqui para abajo esta ordenado segun seccion, falta ordenar arriba.
+
 # Utilities section
 https://wiki.archlinux.org/title/List_of_applications/Utilities
+
 ## 1. Terminal:
+- Alacritty — A cross-platform, GPU-accelerated terminal emulator.
+- Contour — A modern and fast terminal emulator with truly full Unicode support including ZJW (unlike 99% of TE) and Vi-like input modes and keybindings.
+cool-retro-term — A good looking terminal emulator which mimics the old cathode display.
+CuteCom — A graphical serial terminal.
+Darktile — GPU rendered terminal emulator designed for tiling window managers.
+Extraterm — A terminal emulator with support for images in terminal, Unicode, font ligature, text zoom, etc.
+foot — Lightweight terminal emulator for Wayland with sixel support.
+Ghostty — Fast, native, feature-rich terminal emulator pushing modern features.
+Hyper — A terminal with JS/CSS support. Based on the Electron platform.
+kitty — A modern, hackable, featureful, OpenGL based terminal emulator
+Konsole — Terminal emulator included in the KDE desktop. Part of kde-utilities.
+Liri Terminal — Material Design terminal for Liri.
+mlterm — A multi-lingual terminal emulator supporting various character sets and encodings, variable-width fonts and bidi rendering.
+QTerminal — Lightweight Qt-based terminal emulator.
+Rio — A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.
+rxvt-unicode (urxvt) — Terminal emulator forked from rxvt, customizable with source-code patches, X resources and Perl extensions.
+shellinabox — A web-based SSH Terminal
+st — Simple terminal implementation for X.
+Station — Terminal emulation features different view modes such as split vertically and horizontally, a tabbed interface, and copy and paste commands. Part of maui.
+Tabby — A terminal for a more modern age with Unicode support.
+Terminal — Terminal emulator for GNUstep.
+Terminology — Terminal emulator by the Enlightenment project team with innovative features: file thumbnails and media play like a media player.
+wayst — Simple terminal emulator for Wayland and X11 with OpenGL rendering and minimal dependencies.
+WezTerm — GPU-accelerated cross-platform terminal emulator and multiplexer implemented in Rust.
+xterm — Simple terminal emulator for the X Window System. It provides DEC VT102 and Tektronix 4014 compatible terminals for programs that cannot use the window system directly.
+Yakuake — Drop-down terminal (Quake style) emulator based on Konsole. Part of kde-utilities.
+zutty — A high-end terminal for low-end systems.
+
 ## 2.1 File managers:
+1. Dolphin
+    - Con la opción de jpeg creo
+2. Thunar
+3. Nemo
+
+(este top era anterior)
+
+Caja — The file manager for the MATE desktop.
+CoreFM — Simple lightweight easy to use file manager with many features like image previews, mime-icon support, split view, auto-mounting of removable media, drag-n-drop support etc. Part of C-Suite.
+Dolphin — File manager included in the KDE desktop. Part of kde-system.
+fm — Small, general purpose file manager built using GTK and Relm, written in Rust,
+Gentoo — A lightweight file manager for GTK.
+GNOME Files — Extensible, heavyweight file manager used by default in GNOME with support for custom scripts. Part of gnome.
+GWorkspace — File manager for GNUStep, a reimplementation of the NeXT workspace manager.
+Index — File manager that lets you browse your system files and applications and preview your music, text, image and video files and share them with external applications. Part of maui.
+Konqueror — File manager and web browser for the KDE desktop. Part of kde-network.
+Liri Files — The file manager for Liri.
+Nemo — Nemo is the file manager of the Cinnamon desktop. A fork of Nautilus.
+PathFinder — File browser that comes with the FOX toolkit.
+PCManFM — Very fast and lightweight file manager which can also optionally manage the desktop icons and background.
+PCManFM-Qt — Qt port of PCManFM file manager.
+Peony — File manager for the UKUI desktop.
+qtFM — Small, lightweight filemanager for Linux desktops based on pure Qt.
+ROX Filer — Small and fast file manager which can optionally manage the desktop background and panels.
+Thunar — File manager that can be run as a daemon with excellent start up and directory load times.
+
+*Twin-panel*
+Double Commander — File manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
+https://doublecmd.sourceforge.io/ || doublecmd-qt5, doublecmd-qt6
+Gnome Commander — A dual-paned file manager for the GNOME Desktop.
+https://gcmd.github.io/ || gnome-commander
+Krusader — Advanced twin panel (Midnight Commander style) file manager for the KDE desktop.
+https://krusader.org/ || krusader
+muCommander — A lightweight, cross-platform file manager with a dual-pane interface written in Java.
+https://www.mucommander.com/ || mucommanderAUR
+SpaceFM — GTK multi-panel tabbed file manager.
+https://ignorantguru.github.io/spacefm/ || spacefmAUR
+Sunflower — Small and highly customizable twin-panel file manager for Linux with support for plugins.
+https://sunflower-fm.org/ || sunflowerAUR
+Tux Commander — Windowed file manager with two panels side by side similar to popular Total Commander or Midnight Commander file managers.
+https://tuxcmd.sourceforge.net/description.php || tuxcmdAUR
+Worker — Fast, lightweight and feature-rich file manager for the X Window System.
+http://www.boomerangsworld.de/cms/worker/ || workerAUR
+Xfe — Microsoft Explorer-like file manager for X (X File Explorer).
+
 ## Keyboard layout switchers:
 - bxkb — A NETWM compliant keyboard indicator and switcher. It shows a flag of current keyboard in a systray area and allows you to switch to another one.
 - gxkb — X11 keyboard layout indicator and switcher.
