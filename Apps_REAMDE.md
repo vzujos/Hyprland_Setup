@@ -102,13 +102,10 @@ https://wiki.archlinux.org/title/List_of_applications
 - Tilde — Intuitive text editor with Windows-like key bindings.
 
 ## Office suites
-- Calligra — Actively developed fork of KOffice, the KDE office suite. It offers most of the features of OpenOffice. Part of kde-office.
 - Google Docs — Cloud office solution by Google.
 - LibreOffice — The office productivity suite compatible to the open and standardized ODF document format. Fork of OpenOffice, supported by The Document Foundation.
 - OnlyOffice — Office suite that combines text, spreadsheet and presentation editors.
 - SoftMaker FreeOffice — Complete, reliable, lightning-fast and Microsoft Office-compatible proprietary office suite with a word processor, spreadsheet, and presentation graphics software.
-- WPS Office — Proprietary office productivity suite, previously known as Kingsoft Office.
-- Yozo Office — Proprietary office suite, compatible with MS Office.
 
 ## PDF
 
@@ -154,17 +151,9 @@ Some PDF viewers like apvlv, MuPDF, Okular, and Zathura also support the EPUB fo
 ## Metadata
 
 - CoreInfo — Simple media metadata viewer built on mediainfo library. Part of C-Suite.
-- DV Analyzer — Technical quality control and reporting tool that examines DV streams in order to report errors.
-- ExifCleaner — Desktop app to clean metadata from images, videos, PDFs, and other files.
 - ExifTool — Command-line application for reading, writing and editing meta information in a wide variety of files.
-- Exiv2 — Command line utility to manage image metadata. It provides fast and easy read and write access to the Exif, IPTC and XMP metadata and the ICC Profile embedded within digital images in various formats.
-- ffprobe — Gather information from multimedia streams and print it in human- and machine-readable fashion.
-- jExifToolGUI — Java/Swing graphical frontend for ExifTool, which reads and writes all kind of metadata tags from/to image files.
-- jhead — Exif jpeg header manipulation tool.
 - mat2 — Metadata removal tool, supporting a wide range of commonly used file formats.
-- MediaConch — Implementation checker, policy checker, reporter, and fixer.
 - MediaInfo — Convenient unified display of the most relevant technical and tag data for video and audio files.
-- sndfile-info — Obtaining information about the contents of an audio file.
 
 # Utilities section
 https://wiki.archlinux.org/title/List_of_applications/Utilities
@@ -211,63 +200,33 @@ https://wiki.archlinux.org/title/List_of_applications/Utilities
 - Calcurse — Text-based ncurses calendar and scheduling system (supports CalDAV)
 - khal — Command-line (non-interactive) and ncurses (interactive) calendar system (supports CalDAV)
 - gcalcli — Command-line (non-interactive) Google Calendar for event management and agendas.
-- mail2rem — Small script for importing .ics calendars from Maildir to Remind calendar.
-- Pal — Very lightweight calendar with both interactive and non-interactive interfaces.
-- pcal — A tool to create pdf calendars from pcal input which can be exported by some calendar programs.
 - Remind — Highly sophisticated text-based calendaring and notification system.
-- When — Simple personal calendar program.
 - Wyrd — Text-based front-end to Remind, a calendar and alarm program used on UNIX and Linux computers.
-- Agenda — Calendar application built with MauiKit. Part of maui.
-- Calindori — Calendar application for Plasma Mobile.
-- CoreTime — Very simple Clock/Calendar application which shows a clock, supports alarms, reminders, a stop watch and a timer. Part of C-Suite.
-- Deepin Calendar — Calendar application for Deepin.
 - etmtk (Event and Task Manager) — Simple application with a "Getting Things Done!" approach to handling events, tasks, activities, reminders and projects.
-- GNOME Calendar — Calendar application for GNOME. Part of gnome.
 - KAlarm — Personal alarm message, command and email scheduler, part of kde-pim.
-- Kongress — Companion application for conferences made by KDE. Part of kde-utilities.
-- KOrganizer — Calendar and scheduling program, part of kde-pim.
 - Merkuro Calendar — Calendar application using Akonadi that supports both local and online calendars: Nextcloud, Google Calendar, Outlook, Caldav and more. Part of kde-pim.
 - Nextcloud Calendar — Calendar app for Nextcloud.
 - Outspline — Extensible outliner with advanced time management features, supporting events with complex recurrence schemes.
-- TkRemind — Sophisticated calendar and alarm program.
+
 
 **Task management**:
 - c3 — A multi-platform TUI todo manager that extends calcurse's todo format to have a tree-like dependency structure, and even more!
-- Cfait — Powerful, simple, elegant, and lightweight CalDAV task manager (TUI & GUI).
 - dijo — Scriptable, curses-based, digital habit tracker
-- Taskbook — Tasks, boards and notes for the command-line habitat.
-- Taskell — A command-line kanban board/task manager.
 - Taskwarrior — Command-line To-do list application with support for lua customization and more.
 - todoman — Command-line To-do list manager (supports CalDAV)
-- Todo.txt — Small command-line To-do manager.
-- TuDu — Ncurses-based hierarchical To-do list manager with vim-like keybindings.
-- Agenda — Simple, fast, no-nonsense to-do (task) list for elementary OS.
-- Effitask — Graphical task manager, based on the Todo.txt format.
-- Endeavour — Personal task manager for GNOME. Part of gnome-extra.
-- Errands — Todo application for those who prefer simplicity.
-- Go For It! — Simple and stylish productivity app, featuring a to-do list, merged with a timer that keeps your focus on the current task. To-do lists are stored in the Todo.txt format.
-- GTG — Personal tasks and TODO list items organizer for GNOME inspired by the Getting Things Done (GTD) methodology.
 - Nextcloud Tasks — Tasks app for Nextcloud.
-- Planner — Task manager with Todoist support.
-- ptask — GTK task manager based on Taskwarrior.
-- sleek — todo.txt app with modern GUI. Based on the Electron platform.
-- TickTick — Is a simple and effective to-do list and task manager app with seamless cloud synchronization across all your devices
-- Zanshin — To-do management application for KDE. Part of kde-pim.
+
   
 **Financial management**:
 - Beancount — A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
 - hledger — An accounting program for tracking money, time, or any other commodity, using double-entry accounting and a simple, editable file format. hledger is inspired by and largely compatible with ledger.
-- Eqonomize! — Cross-platform personal accounting software, with focus on efficiency and ease of use for the small household economy.
 - ERPNext — Free and open source Enterprise Resource Planning (ERP).
 - GnuCash — Financial application that implements a double-entry book-keeping system with features for small business accounting.
-- Grisbi — Personal finance system which manages third party, expenditure and receipt categories, as well as budgetary lines, financial years, and other information that makes it suitable for associations.
 - HomeBank — Easy to use finance manager that can analyse your personal finance in detail using powerful filtering tools and graphs.
 - KMyMoney — Personal finance manager that operates in a similar way to Microsoft Money. It supports different account types, categorisation of expenses and incomes, reconciliation of bank accounts and import/export to the “QIF” file format.
 - Kresus — Self-hosted personal finance management software. It automatically retrieves every day all your new bank transactions and lets you categorize them, study them through charts and establish a budget.
-- Manager — Proprietary accounting software for small business.
-- Money Manager EX — An easy-to-use personal finance suite
 - Odoo — Open source ERP system purely in Python. Previously known as OpenERP.
-- Skrooge — Personal finances manager for the KDE desktop.
+
 
 **6.3 AI applications**
 *6.3.1 Desktop clients*:
