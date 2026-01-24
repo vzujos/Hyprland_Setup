@@ -113,68 +113,27 @@ https://wiki.archlinux.org/title/List_of_applications
 ## PDF
 
 **Viewers**:
-- fbgs — Poor man's PostScript/pdf viewer for the linux framebuffer console.
-- apvlv — Lightweight document viewer with Vim keybindings using GTK libraries. Supports PDF, DjVu, EPUB, HTML and TXT.
-- Atril — Simple multi-page document viewer for MATE. Supports DjVu, DVI, EPS, EPUB, PDF, PostScript, TIFF, XPS and Comicbook.
-- CorePDF — Simple lightweight PDF viewer based on Qt and poppler. Part of C-Suite.
-- Emacs — See also pdf-tools for improved pdf support (emacs-pdf-tools-gitAUR) and the djvu package for djvu support.
 - Evince — Document viewer for GNOME using GTK. Supports DjVu, DVI, EPS, PDF, PostScript, TIFF, XPS and Comicbook.
-- GNOME Document Viewer — Document viewer for GNOME using GTK. Modern fork of evince, partly written in Rust. Supports PDF, DjVu, TIFF, and Comic Books archives (CBR, CBT, CBZ, CB7). Part of gnome.
-- llpp — Very fast PDF reader based off of MuPDF, that supports continuous page scrolling, bookmarking, and text search through the whole document.
 - MuPDF — Very fast EPUB, FictionBook, PDF, XPS and Comicbook viewer written in portable C. Features CJK font support and vim-like bindings.
 - Okular — Universal document viewer for KDE. Supports CHM, Comicbook, DjVu, DVI, EPUB, FictionBook, Mobipocket, ODT, PDF, Plucker, PostScript, TIFF and XPS. Part of kde-graphics.
-- pdfpc — Presenter console with multi-monitor support for PDF files.
-- qpdfview — Tabbed document viewer. It uses Poppler for PDF support, libspectre for PS support, DjVuLibre for DjVu support, CUPS for printing support and the Qt toolkit for its interface.
 - Sioyek — Lightweight PDF viewer based on MuPDF with features designed for viewing research papers and technical books, e.g., marking, bookmarking, highlighting, searchable command palette, jumping to references, and more.
-- Xreader — Document viewer part of the X-Apps Project. Supports DjVu, DVI, EPUB, PDF, PostScript, TIFF, XPS, Comicbook.
 - Zathura — Highly customizable and functional document viewer (plugin based). Supports PDF, DjVu, PostScript and Comicbook.
 
 **Editors**:
-    flpsed — A PostScript and PDF annotator, only supports text boxes.
-    HandyOutliner for DjVu / PDF — Make easier and faster the process of creating bookmarks for DjVu and PDF documents.
-    jPDF Tweak — Java Swing application that can combine, split, rotate, reorder, watermark, encrypt, sign, and otherwise tweak PDF files.
-    Paper Clip — PDF document metadata editor to edit the title, author, keywords and more details.
     PDF Arranger — Helps merge or split pdf documents and rotate, crop and rearrange pages. It is a maintained fork of PDF-Shuffler.
-    PDF Chain — GTK front-end for PDFtk, written in C++, supporting concatenation, burst, watermarks, attaching files and more.
-    PdfJumbler — Simple tool to rearrange, merge, delete and rotate pages in PDF files.
-    PDF Mix Tool — Qt front-end for PoDoFo, written in C++, supports splitting, merging, rotating and mixing PDF files.
-    PDFsam — Open source application, written in Java, supports merging, splitting and rotating.
-    PDF Slicer — Simple application to extract, merge, rotate and reorder pages of PDF documents.
-    PDF Tricks — Simple, efficient application for small manipulations in PDF files using Ghostscript.
     Master PDF Editor — Functional proprietary PDF editor. Latest version free for non-commercial use. The -free package is outdated but lacks a watermark.
     PDF4QT — Open source PDF editor.
-    PDF Studio — All-in-one proprietary PDF editor similar to Adobe Acrobat.
-    Camelot — Camelot: PDF Table Extraction for Humans.
-    mupdf-tools — Tools developed as part of MuPDF, contains mutool(1) and muraster.
-    pdf2svg — Convert PDF files to SVG files.
-    pdfcmd — Command-line tool to join, cut, reorder or merge PDF files.
     pdfcpu — Command-line tool to create and modify PDFs.
-    pdf_extbook — Extract bookmarked PDF pages.
-    pdfgrep — Commandline utility to search text in PDF files.
     pdfjam — Can be used to n-up, join, rotate and flip PDFs and arrange them into a format suitable for book binding.
-    pdfminer.six — Community maintained fork of pdfminer, a text extraction tool for PDF documents.
-    PDFtk — Simple tool for doing everyday things with PDF documents.
     QPDF — Content-preserving PDF transformation system.
-    Stapler — Light alternative to PDFtk using the PyPDF2 library.
-    Tabula — Tabula is a tool for liberating data tables trapped inside PDF files.
-    Vector Slicer — Export multi-page PDFs from an SVG.
-    verapdf — A purpose-built, open source, file-format validator covering all PDF/A and PDF/UA parts and conformance levels.
-    wrt2pdf — A CLI tool to create a PDF out of a plain text file.
     
 ## E-book
-- Arianna — An ebook reader and library management app supporting EPUB files. Part of kde-graphics.
-- baca — console epub reader.
-- Beseda — Accessible (for visually impaired) console ebook-reader that can speak TXT, FB2, ABW, [X]HTML, ODT, DOCX books and documents.
-- Bookworm — Simple, focused e-book reader for Elementary OS with EPUB, PDF, Mobipocket and Comicbook support.
 - Calibre — E-book library management application that can also edit EPUB files, convert between different formats and sync with a variety of e-book readers. Supported formats include CHM, Comicbook, DjVu, DOCX, EPUB, FictionBook, HTML, HTMLZ, Kindle, LIT, LRF, Mobipocket, ODT, PDF, PRC, PDB, PML, RB, RTF, SNB, TCR, TXT and TXTZ.
-- Cool Reader — E-book viewer with many supported formats such as EPUB (non-DRM), FictionBook, TXT, RTF, HTML, CHM and TCR.
-- FBReader — E-book viewer with many supported formats such as EPUB, FictionBook, HTML, plucker, PalmDoc, zTxt, TCR, CHM, RTF, OEB, Mobipocket (non-DRM) and TXT.
 - Foliate — Simple and modern GTK eBook reader. Supports EPUB, Mobipocket, Kindle, FictionBook, and Comicbook formats.
 - KOReader — An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
-- Lector — Qt based e-book reader with PDF, EPUB, Kindle, Mobipocket and Comicbook support.
 - Sigil — WYSIWYG EPUB e-book editor.
 
-Some PDF viewers like apvlv, Atril, MuPDF, Okular, Xreader, and Zathura also support the EPUB format. 
+Some PDF viewers like apvlv, MuPDF, Okular, and Zathura also support the EPUB format. 
 
 ## Others
 - Typst
@@ -240,32 +199,13 @@ https://wiki.archlinux.org/title/List_of_applications/Utilities
 # Others section
 
 ## Password managers
-- 1Password — Proprietary tool for 1Password password manager.
 - Bitwarden — Open source password manager with desktop, mobile, browser, and CLI versions. Cloud or self-hosted.
 - gopass — Advanced console based password manager, supporting GnuPG and other backends.
-- Himitsu — Secret storage manager.
-- KeePassC — Curses-based password manager compatible to KeePass v.1.x.
-- LastPass — Hosted password manager.
-- pass — Simple console-based password manager featuring flat text file organization and GnuPG encryption.
-- passage — A fork of password-store that uses age as backend.
-- pwsafe — Unix command-line program that manages encrypted password databases.
-- tpm — Tiny password manager, inspired by pass, written entirely in POSIX shell.
-- Vault — Proprietary tool for managing secrets.
 - Authenticator — Open source, two-factor authentication application built for GNOME.
- Figaro's Password Manager 2 — GTK2 port of Figaro's Password Manager with some new enhancements.
-- KDE Wallet Manager — Tool to manage the passwords on your system. By using the KDE wallet subsystem, it not only allows you to keep your own secrets but also to access and manage the passwords of every application that integrates with the wallet. Part of kde-utilities.
-- KeePass Password Safe — Mono-based password manager, which helps you to manage your passwords in a secure way.
 - KeePassXC — Community fork of KeePassX with more active development. Compatible with KeePass v.1.x (import only) and KeePass v.2.x.
-- Key Rack — Password manager for GNOME to view and edit keys, like passwords or tokens, stored by apps.
 - Keysmith — OTP generation software by KDE. Part of kde-utilities.
 - OTPClient — Highly secure and easy to use GTK software for two-factor authentication that supports both Time-based One-time Passwords (TOTP) and HMAC-Based One-Time Passwords (HOTP).
-- Passbook — Modern password manager for GNOME.
-- Password Safe — Simple and secure password manager.
 - Proton Pass — European-hosted password manager.
-- QtPass — GUI for pass, the standard unix password manager.
-- Revelation — Password manager for the GNOME desktop.
-- Seahorse — GNOME application for managing encryption keys and passwords in the GNOME Keyring. Part of gnome-extra.
-- Secrets — Password manager for GNOME which makes use of the KeePass v.4 format.
 
 **Time management**:
 - Calcurse — Text-based ncurses calendar and scheduling system (supports CalDAV)
