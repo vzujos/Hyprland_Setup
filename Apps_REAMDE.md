@@ -183,33 +183,13 @@ WireGuard — Next generation secure network tunnel
 # Utilities section
 
 ## 1. Terminal:
-- Alacritty — A cross-platform, GPU-accelerated terminal emulator.
-- Contour — A modern and fast terminal emulator with truly full Unicode support including ZJW (unlike 99% of TE) and Vi-like input modes and keybindings.
-cool-retro-term — A good looking terminal emulator which mimics the old cathode display.
-CuteCom — A graphical serial terminal.
-Darktile — GPU rendered terminal emulator designed for tiling window managers.
-Extraterm — A terminal emulator with support for images in terminal, Unicode, font ligature, text zoom, etc.
-foot — Lightweight terminal emulator for Wayland with sixel support.
-Ghostty — Fast, native, feature-rich terminal emulator pushing modern features.
-Hyper — A terminal with JS/CSS support. Based on the Electron platform.
-kitty — A modern, hackable, featureful, OpenGL based terminal emulator
-Konsole — Terminal emulator included in the KDE desktop. Part of kde-utilities.
-Liri Terminal — Material Design terminal for Liri.
-mlterm — A multi-lingual terminal emulator supporting various character sets and encodings, variable-width fonts and bidi rendering.
-QTerminal — Lightweight Qt-based terminal emulator.
-Rio — A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.
-rxvt-unicode (urxvt) — Terminal emulator forked from rxvt, customizable with source-code patches, X resources and Perl extensions.
-shellinabox — A web-based SSH Terminal
-st — Simple terminal implementation for X.
-Station — Terminal emulation features different view modes such as split vertically and horizontally, a tabbed interface, and copy and paste commands. Part of maui.
-Tabby — A terminal for a more modern age with Unicode support.
-Terminal — Terminal emulator for GNUstep.
-Terminology — Terminal emulator by the Enlightenment project team with innovative features: file thumbnails and media play like a media player.
-wayst — Simple terminal emulator for Wayland and X11 with OpenGL rendering and minimal dependencies.
-WezTerm — GPU-accelerated cross-platform terminal emulator and multiplexer implemented in Rust.
-xterm — Simple terminal emulator for the X Window System. It provides DEC VT102 and Tektronix 4014 compatible terminals for programs that cannot use the window system directly.
-Yakuake — Drop-down terminal (Quake style) emulator based on Konsole. Part of kde-utilities.
-zutty — A high-end terminal for low-end systems.
+1. foot — Lightweight terminal emulator for Wayland with sixel support.
+2. WezTerm — GPU-accelerated cross-platform terminal emulator and multiplexer implemented in Rust.
+3. kitty — A modern, hackable, featureful, OpenGL based terminal emulator
+
+- Ghostty — Fast, native, feature-rich terminal emulator pushing modern features
+(aun no está en hyprland)
+
 
 ## 2.1 File managers:
 1. Dolphin
