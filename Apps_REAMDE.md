@@ -221,34 +221,20 @@ https://wiki.archlinux.org/title/List_of_applications/Utilities
 
 **6.3 System information viewers**:
 - agesafetch — A tool for identifying the AGESA version embedded in your AMD system's UEFI firmware.
-- alsi — A system information tool for Arch Linux. It can be configured for every other system without even touching the source code of the script.
-- archey4 — Python script to display system information alongside the Arch Linux logo.
 - dmidecode — It reports information about your system's hardware as described in your system BIOS according to the SMBIOS/DMI standard.
 - fastfetch — Like Neofetch, but much faster because written in C.
-- hwdetect — Simple script to list modules that are exported in /sys/.
 - hwinfo — Powerful hardware detection tool come from openSUSE.
 - hw-probe — Tool to probe for hardware, check operability and find drivers with the help of Linux Hardware Database.
 - inxi — A script to get system information.
 - lshw — A small tool to provide detailed information on the hardware configuration of the machine with CLI and GTK interfaces.
-- neofetch — A fast, highly customizable system info script that supports displaying images with w3m.
 - nmon — Console based application for monitoring various system components.
-- pfetch — A pretty system information tool written in POSIX sh.
-- screenfetch — Similar to archey but has an option to take a screenshot. Written in bash.
 - GPU-Viewer — GUI to glxinfo, vulkaninfo, clinfo and es2_info; written in Python with GTK.
-- hardinfo2 — System Information and Benchmark for Linux Systems.
-- KInfoCenter — Centralized and convenient overview of system information for KDE. Part of plasma.
 - USBView — Display the topology of devices on the USB bus.
 
 **6.5 Font viewers**:
 - Deepin Font Manager — A font management tool for Deepin desktop.
 - Font Manager — Simple font management for GTK desktop environments.
-- fontpreview — Simple shell script using fzf and sxiv for previewing fonts.
-- fontpreview-ueberzug — Shell script inspired by fontpreview that uses ueberzug instead of sxiv.
 - Fonty Python — Manage, view and find your fonts.
-- GNOME Fonts — Font viewer for GNOME. Part of gnome.
-- gtk2fontsel — Font selection and preview tool.
-- KFontview — KDE application to view and install different types of fonts. Part of plasma.
-- MATE Font Viewer — Font viewer for MATE.
 
 
 # Others section
