@@ -111,26 +111,22 @@ https://wiki.archlinux.org/title/List_of_applications
 
 **Viewers**:
 - Evince — Document viewer for GNOME using GTK. Supports DjVu, DVI, EPS, PDF, PostScript, TIFF, XPS and Comicbook.
-- MuPDF — Very fast EPUB, FictionBook, PDF, XPS and Comicbook viewer written in portable C. Features CJK font support and vim-like bindings.
 - Okular — Universal document viewer for KDE. Supports CHM, Comicbook, DjVu, DVI, EPUB, FictionBook, Mobipocket, ODT, PDF, Plucker, PostScript, TIFF and XPS. Part of kde-graphics.
 - Sioyek — Lightweight PDF viewer based on MuPDF with features designed for viewing research papers and technical books, e.g., marking, bookmarking, highlighting, searchable command palette, jumping to references, and more.
 - Zathura — Highly customizable and functional document viewer (plugin based). Supports PDF, DjVu, PostScript and Comicbook.
 
 **Editors**:
-    PDF Arranger — Helps merge or split pdf documents and rotate, crop and rearrange pages. It is a maintained fork of PDF-Shuffler.
-    Master PDF Editor — Functional proprietary PDF editor. Latest version free for non-commercial use. The -free package is outdated but lacks a watermark.
-    PDF4QT — Open source PDF editor.
-    pdfcpu — Command-line tool to create and modify PDFs.
-    pdfjam — Can be used to n-up, join, rotate and flip PDFs and arrange them into a format suitable for book binding.
-    QPDF — Content-preserving PDF transformation system.
+- PDF Arranger — Helps merge or split pdf documents and rotate, crop and rearrange pages. It is a maintained fork of PDF-Shuffler.
+- Master PDF Editor — Functional proprietary PDF editor. Latest version free for non-commercial use. The -free package is outdated but lacks a watermark.
+- PDF4QT — Open source PDF editor.
+- QPDF — Content-preserving PDF transformation system.
     
-## E-book
+**E-book**:
 - Calibre — E-book library management application that can also edit EPUB files, convert between different formats and sync with a variety of e-book readers. Supported formats include CHM, Comicbook, DjVu, DOCX, EPUB, FictionBook, HTML, HTMLZ, Kindle, LIT, LRF, Mobipocket, ODT, PDF, PRC, PDB, PML, RB, RTF, SNB, TCR, TXT and TXTZ.
 - Foliate — Simple and modern GTK eBook reader. Supports EPUB, Mobipocket, Kindle, FictionBook, and Comicbook formats.
 - KOReader — An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
 - Sigil — WYSIWYG EPUB e-book editor.
 
-Some PDF viewers like apvlv, MuPDF, Okular, and Zathura also support the EPUB format. 
 
 ## Others
 - Typst
@@ -230,28 +226,18 @@ https://wiki.archlinux.org/title/List_of_applications/Utilities
 
 **6.3 AI applications**
 *6.3.1 Desktop clients*:
-- AIOne — An all-in-one AI desktop application that provides access to ChatGPT, Gemini, and Claude (uses system-wide Electron).
-- Alpaca AI — A flexible client for Ollama, enabling local AI model usage and integration with third-party services like ChatGPT and Gemini.
-- BrowserOS — An open-source agentic browser that runs AI agents locally.
-- Cherry Studio — Desktop client for multiple LLM providers (OpenAI, Claude, LocalAI, etc.).
-- Chatbox — A cross-platform desktop application for interacting with GPT-4 and GPT-3.5 models via the OpenAI API.
 - ChatWise — Fast AI chatbot desktop application.
 - clara-verse — Privacy-first, client-side AI assistant WebUI for LLMs with ComfyUI integration.
-- GPT4All — A lightweight solution for running large language models locally on any device.
 - Jan — An easy-to-use platform for deploying and managing AI models directly on your PC.
 - Lobe Chat — A modern, extensible chat framework for LLMs, supporting multiple AI providers, multi-modal interactions, and plugins.
 - LocalAI — Free, Open Source OpenAI alternative with CPU optimizations.
-- NextChat — A cross-platform ChatGPT client.
 - noi-desktop — AI-powered desktop assistant for exploration and task automation.
-- Open-GPT — A ChatGPT client using the OpenAI API.
 - SillyTavern — A feature-rich local interface for interacting with large language models (LLMs), generating images, and synthesizing speech.
-- Mycroft — Intelligent personal assistant and knowledge navigator with speech recognition.
 *Terminal clients*:
 - AIChat NG — An enhanced fork of AIChat with advanced features for terminal-based AI interactions.
 - Gemini CLI — Open-source AI agent that brings the power of Google Gemini directly into your terminal.
 - GitHub Copilot CLI — Official CLI interface for GitHub Copilot coding assistant.
 - TLM — Local CLI Copilot powered by Ollama.
-- ShellGPT — A productivity-focused CLI tool powered by OpenAI's ChatGPT, designed for efficient command-line workflows.
 
 
 ---  
