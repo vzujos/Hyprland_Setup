@@ -257,7 +257,6 @@ https://wiki.archlinux.org/title/List_of_applications/Utilities
 **Financial management**:
 - Beancount — A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
 - hledger — An accounting program for tracking money, time, or any other commodity, using double-entry accounting and a simple, editable file format. hledger is inspired by and largely compatible with ledger.
-- Ledger — Ledger is a powerful, double-entry accounting system that is accessed from the UNIX command-line.
 - Eqonomize! — Cross-platform personal accounting software, with focus on efficiency and ease of use for the small household economy.
 - ERPNext — Free and open source Enterprise Resource Planning (ERP).
 - GnuCash — Financial application that implements a double-entry book-keeping system with features for small business accounting.
