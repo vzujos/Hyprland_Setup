@@ -145,15 +145,15 @@ https://wiki.archlinux.org/title/List_of_applications
 # Internet section
 
 ## vpn
-GlobalProtect-openconnect — A GlobalProtect VPN client (GUI) for Linux, based on OpenConnect and built with Qt5, supports SAML auth mode.
-Mullvad — A GUI client for the Mullvad VPN service
-Nebula — A mesh VPN network
-NetworkManager — Supports a variety of protocols (e.g. MS, Cisco, Fortinet) via a plugin system.
-OpenConnect — Supports Cisco and Juniper VPNs.
-ProtonVPN — VPN provider that uses the OpenVPN and WireGuard protocol.
-OpenVPN — To connect to OpenVPN VPNs.
-strongSwan — IPsec-based VPN Solution.
-WireGuard — Next generation secure network tunnel
+1. Mullvad — A GUI client for the Mullvad VPN service
+2. WireGuard — Next generation secure network tunnel
+3. OpenConnect — Supports Cisco and Juniper VPNs.
+4. ProtonVPN — VPN provider that uses the OpenVPN and WireGuard protocol.
+5. strongSwan — IPsec-based VPN Solution.
+6. Nebula — A mesh VPN network
+- NetworkManager — Supports a variety of protocols (e.g. MS, Cisco, Fortinet) via a plugin system.
+- GlobalProtect-openconnect — A GlobalProtect VPN client (GUI) for Linux, based on OpenConnect and built with Qt5, supports SAML auth mode.
+- OpenVPN — To connect to OpenVPN VPNs.
 
 
 # Utilities section
