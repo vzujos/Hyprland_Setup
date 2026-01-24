@@ -146,37 +146,13 @@ https://wiki.archlinux.org/title/List_of_applications
 
 ## vpn
 GlobalProtect-openconnect — A GlobalProtect VPN client (GUI) for Linux, based on OpenConnect and built with Qt5, supports SAML auth mode.
-https://github.com/yuezk/GlobalProtect-openconnect/ || globalprotect-openconnect
-Libreswan — A free software implementation of the most widely supported and standardized VPN protocol based on ("IPsec") and the Internet Key Exchange ("IKE").
-https://libreswan.org/ || libreswanAUR
 Mullvad — A GUI client for the Mullvad VPN service
-https://mullvad.net/ || mullvad-vpnAUR
 Nebula — A mesh VPN network
-https://nebula.defined.net/docs/ || nebula
 NetworkManager — Supports a variety of protocols (e.g. MS, Cisco, Fortinet) via a plugin system.
-https://wiki.gnome.org/Projects/NetworkManager/VPN || networkmanager
 OpenConnect — Supports Cisco and Juniper VPNs.
-https://www.infradead.org/openconnect/ || openconnect
 ProtonVPN — VPN provider that uses the OpenVPN and WireGuard protocol.
-https://protonvpn.com/ || proton-vpn-gtk-app
-Openswan — IPsec-based VPN Solution.
-https://www.openswan.org/ || openswanAUR
 OpenVPN — To connect to OpenVPN VPNs.
-https://openvpn.net/ || openvpn
-PPTP Client — To connect to PPTP VPNs, like Microsoft VPNs (MPPE). (insecure)
-https://pptpclient.sourceforge.net/ || pptpclient
-RiseupVPN — A GUI client for the Riseup VPN service from riseup.net.
-https://riseup.net/en/vpn/ || riseup-vpnAUR or riseup-vpn-configuratorAUR
-Rosenpass — Hybrid security against quantum computers for WireGuard by adding a post-quantum-secure key exchange
-https://rosenpass.eu/ || rosenpass
 strongSwan — IPsec-based VPN Solution.
-https://www.strongswan.org/ || strongswan
-tinc — tinc is a free VPN daemon.
-https://www.tinc-vpn.org/ || tinc
-vopono — OpenVPN and WireGuard wrapper to launch applications with VPN tunnels in network namespaces.
-https://github.com/jamesmcm/vopono || voponoAUR
-vpnc — To connect to Cisco 3000 VPN Concentrators.
-https://www.unix-ag.uni-kl.de/~massar/vpnc/ || vpnc
 WireGuard — Next generation secure network tunnel
 
 
