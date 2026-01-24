@@ -2,7 +2,6 @@ Las apps con número están ordenadas por preferencia.
 
 Las apps con guiones no están ordenadas y falta indagar o escoger.
 
-Esta lista ya se encuentra revisada hasta la Metadata.
 
 Esta es la fuente:
 https://wiki.archlinux.org/title/List_of_applications
@@ -92,6 +91,13 @@ https://wiki.archlinux.org/title/List_of_applications
 - cameractrls — Command line and graphical application for configuring v4l2 devices.
 - v4l-utils — Provides a series of utilities for media devices.
 
+# Metadata
+
+- CoreInfo — Simple media metadata viewer built on mediainfo library. Part of C-Suite.
+- ExifTool — Command-line application for reading, writing and editing meta information in a wide variety of files.
+- mat2 — Metadata removal tool, supporting a wide range of commonly used file formats.
+- MediaInfo — Convenient unified display of the most relevant technical and tag data for video and audio files.
+
 
 # Document section
 
@@ -132,21 +138,16 @@ https://wiki.archlinux.org/title/List_of_applications
 - Typst
 - Zotero
 - Timeshift
-
-# Otra seccion
-
-## Metadata
-
-- CoreInfo — Simple media metadata viewer built on mediainfo library. Part of C-Suite.
-- ExifTool — Command-line application for reading, writing and editing meta information in a wide variety of files.
-- mat2 — Metadata removal tool, supporting a wide range of commonly used file formats.
-- MediaInfo — Convenient unified display of the most relevant technical and tag data for video and audio files.
+- Floorp, Midori
 
 
-desde aqui para abajo esta ordenado segun seccion, falta ordenar arriba.
+# Internet section
+
+## vpn
+
+
 
 # Utilities section
-https://wiki.archlinux.org/title/List_of_applications/Utilities
 
 ## 1. Terminal:
 - Alacritty — A cross-platform, GPU-accelerated terminal emulator.
