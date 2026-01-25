@@ -184,8 +184,6 @@ Index — File manager that lets you browse your system files and applications a
 Konqueror — File manager and web browser for the KDE desktop. Part of kde-network.
 PCManFM — Very fast and lightweight file manager which can also optionally manage the desktop icons and background.
 PCManFM-Qt — Qt port of PCManFM file manager.
-Peony — File manager for the UKUI desktop.
-qtFM — Small, lightweight filemanager for Linux desktops based on pure Qt.
 ROX Filer — Small and fast file manager which can optionally manage the desktop background and panels.
 Thunar — File manager that can be run as a daemon with excellent start up and directory load times.
 
