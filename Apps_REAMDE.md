@@ -83,7 +83,6 @@ https://wiki.archlinux.org/title/List_of_applications
 1. Kdenlive — Non-linear video editor designed for basic to semi-professional work. Part of kde-multimedia.
 2. Shotcut — Shotcut is a free, open source, cross-platform video editor.
 3. Flowblade — Multitrack non-linear video editor for Linux, designed to provide a fast, robust editing experience.
-- Blender — Fully integrated 3D graphics creation suite with a built-in non-linear video editor.
 
 **Camara web**:
 - Webcamoid — Full featured webcam suite.
@@ -92,9 +91,8 @@ https://wiki.archlinux.org/title/List_of_applications
 - cameractrls — Command line and graphical application for configuring v4l2 devices.
 - v4l-utils — Provides a series of utilities for media devices.
 
-# Metadata
+## Metadata
 
-- CoreInfo — Simple media metadata viewer built on mediainfo library. Part of C-Suite.
 - ExifTool — Command-line application for reading, writing and editing meta information in a wide variety of files.
 - mat2 — Metadata removal tool, supporting a wide range of commonly used file formats.
 - MediaInfo — Convenient unified display of the most relevant technical and tag data for video and audio files.
@@ -140,6 +138,7 @@ https://wiki.archlinux.org/title/List_of_applications
 - Zotero
 - Timeshift
 - Floorp, Midori
+- Blender
 
 
 # Internet section
@@ -181,12 +180,8 @@ Dolphin — File manager included in the KDE desktop. Part of kde-system.
 fm — Small, general purpose file manager built using GTK and Relm, written in Rust,
 Gentoo — A lightweight file manager for GTK.
 GNOME Files — Extensible, heavyweight file manager used by default in GNOME with support for custom scripts. Part of gnome.
-GWorkspace — File manager for GNUStep, a reimplementation of the NeXT workspace manager.
 Index — File manager that lets you browse your system files and applications and preview your music, text, image and video files and share them with external applications. Part of maui.
 Konqueror — File manager and web browser for the KDE desktop. Part of kde-network.
-Liri Files — The file manager for Liri.
-Nemo — Nemo is the file manager of the Cinnamon desktop. A fork of Nautilus.
-PathFinder — File browser that comes with the FOX toolkit.
 PCManFM — Very fast and lightweight file manager which can also optionally manage the desktop icons and background.
 PCManFM-Qt — Qt port of PCManFM file manager.
 Peony — File manager for the UKUI desktop.
