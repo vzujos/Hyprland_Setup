@@ -196,21 +196,13 @@ Thunar — File manager that can be run as a daemon with excellent start up and 
 
 *Twin-panel*
 Double Commander — File manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
-https://doublecmd.sourceforge.io/ || doublecmd-qt5, doublecmd-qt6
 Gnome Commander — A dual-paned file manager for the GNOME Desktop.
-https://gcmd.github.io/ || gnome-commander
 Krusader — Advanced twin panel (Midnight Commander style) file manager for the KDE desktop.
-https://krusader.org/ || krusader
 muCommander — A lightweight, cross-platform file manager with a dual-pane interface written in Java.
-https://www.mucommander.com/ || mucommanderAUR
 SpaceFM — GTK multi-panel tabbed file manager.
-https://ignorantguru.github.io/spacefm/ || spacefmAUR
 Sunflower — Small and highly customizable twin-panel file manager for Linux with support for plugins.
-https://sunflower-fm.org/ || sunflowerAUR
 Tux Commander — Windowed file manager with two panels side by side similar to popular Total Commander or Midnight Commander file managers.
-https://tuxcmd.sourceforge.net/description.php || tuxcmdAUR
 Worker — Fast, lightweight and feature-rich file manager for the X Window System.
-http://www.boomerangsworld.de/cms/worker/ || workerAUR
 Xfe — Microsoft Explorer-like file manager for X (X File Explorer).
 
 ## Keyboard layout switchers:
