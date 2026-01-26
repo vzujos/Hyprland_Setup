@@ -194,45 +194,42 @@ https://wiki.archlinux.org/title/List_of_applications
 
 # Others section
 
-## Password managers
-- Bitwarden — Open source password manager with desktop, mobile, browser, and CLI versions. Cloud or self-hosted.
-- gopass — Advanced console based password manager, supporting GnuPG and other backends.
+## Password managers:
+1. Bitwarden — Open source password manager with desktop, mobile, browser, and CLI versions. Cloud or self-hosted.
+2. Proton Pass — European-hosted password manager.
+3. KeePassXC — Community fork of KeePassX with more active development. Compatible with KeePass v.1.x (import only) and KeePass v.2.x.
+
+### 2FA OTP:
+1. OTPClient — Highly secure and easy to use GTK software for two-factor authentication that supports both Time-based One-time Passwords (TOTP) and HMAC-Based One-Time Passwords (HOTP).
+2. Keysmith — OTP generation software by KDE. Part of kde-utilities.
 - Authenticator — Open source, two-factor authentication application built for GNOME.
-- KeePassXC — Community fork of KeePassX with more active development. Compatible with KeePass v.1.x (import only) and KeePass v.2.x.
-- Keysmith — OTP generation software by KDE. Part of kde-utilities.
-- OTPClient — Highly secure and easy to use GTK software for two-factor authentication that supports both Time-based One-time Passwords (TOTP) and HMAC-Based One-Time Passwords (HOTP).
-- Proton Pass — European-hosted password manager.
 
-**Time management**:
+
+## Time management:
+1. Merkuro Calendar — Calendar application using Akonadi that supports both local and online calendars: Nextcloud, Google Calendar, Outlook, Caldav and more. Part of kde-pim.
+3. khal — Command-line (non-interactive) and ncurses (interactive) calendar system (supports CalDAV)
+2. Remind — Highly sophisticated text-based calendaring and notification system.
+3. etmtk (Event and Task Manager) — Simple application with a "Getting Things Done!" approach to handling events, tasks, activities, reminders and projects.
 - Calcurse — Text-based ncurses calendar and scheduling system (supports CalDAV)
-- khal — Command-line (non-interactive) and ncurses (interactive) calendar system (supports CalDAV)
 - gcalcli — Command-line (non-interactive) Google Calendar for event management and agendas.
-- Remind — Highly sophisticated text-based calendaring and notification system.
-- Wyrd — Text-based front-end to Remind, a calendar and alarm program used on UNIX and Linux computers.
-- etmtk (Event and Task Manager) — Simple application with a "Getting Things Done!" approach to handling events, tasks, activities, reminders and projects.
-- KAlarm — Personal alarm message, command and email scheduler, part of kde-pim.
-- Merkuro Calendar — Calendar application using Akonadi that supports both local and online calendars: Nextcloud, Google Calendar, Outlook, Caldav and more. Part of kde-pim.
-- Nextcloud Calendar — Calendar app for Nextcloud.
-- Outspline — Extensible outliner with advanced time management features, supporting events with complex recurrence schemes.
 
 
-**Task management**:
-- c3 — A multi-platform TUI todo manager that extends calcurse's todo format to have a tree-like dependency structure, and even more!
-- dijo — Scriptable, curses-based, digital habit tracker
-- Taskwarrior — Command-line To-do list application with support for lua customization and more.
-- todoman — Command-line To-do list manager (supports CalDAV)
-- Nextcloud Tasks — Tasks app for Nextcloud.
+## Task management:
+1. Taskwarrior — Command-line To-do list application with support for lua customization and more.
+2. todoman — Command-line To-do list manager (supports CalDAV)
+### Habit tracker:
+1.dijo — Scriptable, curses-based, digital habit tracker
 
   
-**Financial management**:
+## Financial management:
 - Beancount — A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
 - hledger — An accounting program for tracking money, time, or any other commodity, using double-entry accounting and a simple, editable file format. hledger is inspired by and largely compatible with ledger.
-- ERPNext — Free and open source Enterprise Resource Planning (ERP).
 - GnuCash — Financial application that implements a double-entry book-keeping system with features for small business accounting.
-- HomeBank — Easy to use finance manager that can analyse your personal finance in detail using powerful filtering tools and graphs.
 - KMyMoney — Personal finance manager that operates in a similar way to Microsoft Money. It supports different account types, categorisation of expenses and incomes, reconciliation of bank accounts and import/export to the “QIF” file format.
-- Kresus — Self-hosted personal finance management software. It automatically retrieves every day all your new bank transactions and lets you categorize them, study them through charts and establish a budget.
+  
+### ERPs:
 - Odoo — Open source ERP system purely in Python. Previously known as OpenERP.
+- ERPNext — Free and open source Enterprise Resource Planning (ERP).
 
 
 **6.3 AI applications**
@@ -258,13 +255,10 @@ Start removing options based on the amount of features they share.
 This is a (non extensive) list of programs:
 
 
-
 # Other must in hyrpland
 - waybar
 - eww
 - rofi (o wofi, o wmenu)??????
-
-
 
 ## Others
 - Typst
@@ -272,7 +266,7 @@ This is a (non extensive) list of programs:
 - Timeshift
 - Floorp, Midori
 - Blender
-- 
+
 ## Others
 - git (creo)
 - gitlab???
