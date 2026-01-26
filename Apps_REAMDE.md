@@ -153,7 +153,6 @@ https://wiki.archlinux.org/title/List_of_applications
 1. foot — Lightweight terminal emulator for Wayland with sixel support.
 2. WezTerm — GPU-accelerated cross-platform terminal emulator and multiplexer implemented in Rust.
 3. kitty — A modern, hackable, featureful, OpenGL based terminal emulator
-
 - Ghostty — Fast, native, feature-rich terminal emulator pushing modern features
 (aun no está en hyprland)
 
@@ -168,28 +167,21 @@ https://wiki.archlinux.org/title/List_of_applications
 1. Double Commander — File manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
 2. Krusader — Advanced twin panel (Midnight Commander style) file manager for the KDE desktop.
 
+## System information viewers:
+1. fastfetch — Like Neofetch, but much faster because written in C.
+1. inxi — A script to get system information.
+- hw-probe — Tool to probe for hardware, check operability and find drivers with the help of Linux Hardware Database.
+- nmon — Console based application for monitoring various system components.
+- GPU-Viewer — GUI to glxinfo, vulkaninfo, clinfo and es2_info; written in Python with GTK.
+
 
 ## Keyboard layout switchers:
 *Se cambia en .conf en el input kb_layout y kb_options*
-    
-**4.3 Keybinding managers**: https://wiki.archlinux.org/title/Keyboard_shortcuts#Xorg
 
-**6.3 System information viewers**:
-- agesafetch — A tool for identifying the AGESA version embedded in your AMD system's UEFI firmware.
-- dmidecode — It reports information about your system's hardware as described in your system BIOS according to the SMBIOS/DMI standard.
-- fastfetch — Like Neofetch, but much faster because written in C.
-- hwinfo — Powerful hardware detection tool come from openSUSE.
-- hw-probe — Tool to probe for hardware, check operability and find drivers with the help of Linux Hardware Database.
-- inxi — A script to get system information.
-- lshw — A small tool to provide detailed information on the hardware configuration of the machine with CLI and GTK interfaces.
-- nmon — Console based application for monitoring various system components.
-- GPU-Viewer — GUI to glxinfo, vulkaninfo, clinfo and es2_info; written in Python with GTK.
-- USBView — Display the topology of devices on the USB bus.
 
-**6.5 Font viewers**:
-- Deepin Font Manager — A font management tool for Deepin desktop.
+## Font viewers:
+*Se hace a mano cuando se necesite*
 - Font Manager — Simple font management for GTK desktop environments.
-- Fonty Python — Manage, view and find your fonts.
 
 
 # Others section
@@ -232,20 +224,16 @@ https://wiki.archlinux.org/title/List_of_applications
 - ERPNext — Free and open source Enterprise Resource Planning (ERP).
 
 
-**6.3 AI applications**
-*6.3.1 Desktop clients*:
-- ChatWise — Fast AI chatbot desktop application.
-- clara-verse — Privacy-first, client-side AI assistant WebUI for LLMs with ComfyUI integration.
-- Jan — An easy-to-use platform for deploying and managing AI models directly on your PC.
-- Lobe Chat — A modern, extensible chat framework for LLMs, supporting multiple AI providers, multi-modal interactions, and plugins.
-- LocalAI — Free, Open Source OpenAI alternative with CPU optimizations.
-- noi-desktop — AI-powered desktop assistant for exploration and task automation.
-- SillyTavern — A feature-rich local interface for interacting with large language models (LLMs), generating images, and synthesizing speech.
-*Terminal clients*:
-- AIChat NG — An enhanced fork of AIChat with advanced features for terminal-based AI interactions.
-- Gemini CLI — Open-source AI agent that brings the power of Google Gemini directly into your terminal.
+## AI applications
+### Desktop clients:
+0. LocalAI — Free, Open Source OpenAI alternative with CPU optimizations.
+1. SillyTavern — A feature-rich local interface for interacting with large language models (LLMs), generating images, and synthesizing speech.
+2. Lobe Chat — A modern, extensible chat framework for LLMs, supporting multiple AI providers, multi-modal interactions, and plugins.
+
+### Terminal clients:
+1. AIChat NG — An enhanced fork of AIChat with advanced features for terminal-based AI interactions.
+2. TLM — Local CLI Copilot powered by Ollama.
 - GitHub Copilot CLI — Official CLI interface for GitHub Copilot coding assistant.
-- TLM — Local CLI Copilot powered by Ollama.
 
 
 ---  
