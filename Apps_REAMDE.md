@@ -133,14 +133,6 @@ https://wiki.archlinux.org/title/List_of_applications
 - Sigil — WYSIWYG EPUB e-book editor.
 
 
-## Others
-- Typst
-- Zotero
-- Timeshift
-- Floorp, Midori
-- Blender
-
-
 # Internet section
 
 ## vpn
@@ -157,7 +149,7 @@ https://wiki.archlinux.org/title/List_of_applications
 
 # Utilities section
 
-## 1. Terminal:
+## Terminal:
 1. foot — Lightweight terminal emulator for Wayland with sixel support.
 2. WezTerm — GPU-accelerated cross-platform terminal emulator and multiplexer implemented in Rust.
 3. kitty — A modern, hackable, featureful, OpenGL based terminal emulator
@@ -166,43 +158,19 @@ https://wiki.archlinux.org/title/List_of_applications
 (aun no está en hyprland)
 
 
-## 2.1 File managers:
-1. Dolphin
-    - Con la opción de jpeg creo
-2. Thunar
-3. Nemo
+### File managers:
+1. Thunar — File manager that can be run as a daemon with excellent start up and directory load times.
+2. Dolphin — File manager included in the KDE desktop. Part of kde-system.
+- fm — Small, general purpose file manager built using GTK and Relm, written in Rust.
+(aun no está listo)
 
-(este top era anterior)
+### Twin-panels:
+1. Double Commander — File manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
+2. Krusader — Advanced twin panel (Midnight Commander style) file manager for the KDE desktop.
 
-Caja — The file manager for the MATE desktop.
-CoreFM — Simple lightweight easy to use file manager with many features like image previews, mime-icon support, split view, auto-mounting of removable media, drag-n-drop support etc. Part of C-Suite.
-Dolphin — File manager included in the KDE desktop. Part of kde-system.
-fm — Small, general purpose file manager built using GTK and Relm, written in Rust,
-Gentoo — A lightweight file manager for GTK.
-GNOME Files — Extensible, heavyweight file manager used by default in GNOME with support for custom scripts. Part of gnome.
-Index — File manager that lets you browse your system files and applications and preview your music, text, image and video files and share them with external applications. Part of maui.
-Konqueror — File manager and web browser for the KDE desktop. Part of kde-network.
-PCManFM — Very fast and lightweight file manager which can also optionally manage the desktop icons and background.
-PCManFM-Qt — Qt port of PCManFM file manager.
-ROX Filer — Small and fast file manager which can optionally manage the desktop background and panels.
-Thunar — File manager that can be run as a daemon with excellent start up and directory load times.
-
-*Twin-panel*
-Double Commander — File manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
-Gnome Commander — A dual-paned file manager for the GNOME Desktop.
-Krusader — Advanced twin panel (Midnight Commander style) file manager for the KDE desktop.
-muCommander — A lightweight, cross-platform file manager with a dual-pane interface written in Java.
-SpaceFM — GTK multi-panel tabbed file manager.
-Sunflower — Small and highly customizable twin-panel file manager for Linux with support for plugins.
-Tux Commander — Windowed file manager with two panels side by side similar to popular Total Commander or Midnight Commander file managers.
-Worker — Fast, lightweight and feature-rich file manager for the X Window System.
-Xfe — Microsoft Explorer-like file manager for X (X File Explorer).
 
 ## Keyboard layout switchers:
-- bxkb — A NETWM compliant keyboard indicator and switcher. It shows a flag of current keyboard in a systray area and allows you to switch to another one.
-- gxkb — X11 keyboard layout indicator and switcher.
-- qxkb — A keyboard switcher written in Qt.
-- xxkb — A lightweight keyboard layout indicator and switcher.
+*Se cambia en .conf en el input kb_layout y kb_options*
     
 **4.3 Keybinding managers**: https://wiki.archlinux.org/title/Keyboard_shortcuts#Xorg
 
@@ -285,10 +253,10 @@ Xfe — Microsoft Explorer-like file manager for X (X File Explorer).
 
 ---  
 # Promt para comparar
-Can you make a comparison between ____ for linux to search for the overall best and wich ones i should avoid? 
+Can you make a comparison between ____ for linux to search for the overall best and wich ones i should avoid?
+Start removing options based on the amount of features they share.
 This is a (non extensive) list of programs:
 
-Now start removing options based on the amount of features they share.
 
 
 # Other must in hyrpland
@@ -296,6 +264,15 @@ Now start removing options based on the amount of features they share.
 - eww
 - rofi (o wofi, o wmenu)??????
 
+
+
+## Others
+- Typst
+- Zotero
+- Timeshift
+- Floorp, Midori
+- Blender
+- 
 ## Others
 - git (creo)
 - gitlab???
