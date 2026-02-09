@@ -1,0 +1,55 @@
+{	"autoindent": true,
+    "colorcolumn": 80,
+    "colorscheme": "monokai",
+    "keymenu": true,
+    "scrollbar": true,
+    "scrollbarchar": " ",
+    "statusformatl": "$(filename) $(modified)$(overwrite)($(line),$(col)) $(status.paste)",
+    "statusformatr": "$(bind:ToggleKeyMenu): bindings, $(bind:ToggleHelp): help"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
