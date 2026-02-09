@@ -5,51 +5,9 @@
     "scrollbar": true,
     "scrollbarchar": " ",
     "statusformatl": "$(filename) $(modified)$(overwrite)($(line),$(col)) $(status.paste)",
-    "statusformatr": "$(bind:ToggleKeyMenu): bindings, $(bind:ToggleHelp): help"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    "statusformatr": "$(bind:ToggleKeyMenu): bindings, $(bind:ToggleHelp): help",
+    "reload": "auto",
+    "autoclose": true,
+    "comment": true,
+    "linter": true
 }
