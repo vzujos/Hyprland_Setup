@@ -26,10 +26,9 @@ Cuando termine la configuración inicial y se active la terminal, habrá que con
 - `Timezone`: elegir al de Chile (UTC-3).
 Ahora solo se instala y se espera. Al final preguntará si queremos entrar al sistema, ponemos `yes`.
 (En este momento ya tenemos funcionando ArchLinux).
-
-**Ahora se puede configurar el bluetooth desde apps**
-
+  VM: Si uno está en una VM, primero reiniciar y luego instalar los paquetes, para que no se instale en la iso.
 ## Paquetes iniciales
+
 
 Se debe correr en la terminal:
 - `sudo pacman -S foot hyprland sddm` # pruebo foot en vez de kitty
