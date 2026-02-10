@@ -33,7 +33,8 @@ Ahora solo se instala y se espera. Al final preguntará si queremos entrar al si
 Se debe correr en la terminal:
 - `sudo pacman -S foot hyprland sddm` # pruebo foot en vez de kitty
 - `sudo systemctl enable sddm.service`
-- `sudo pacman -S nemo wofi nano man-db fastfetch`
+- `# sudo pacman -S nemo wofi nano man-db fastfetch`
+- `sudo pacman -S thunar wofi micro man-db fastfetch`
 - `sudo pacman -S less git`
 - `sudo pacman -S hyprlock hyprpaper hypridle`
 - `sudo pacman -S waybar swaync`
