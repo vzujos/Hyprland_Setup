@@ -19,8 +19,9 @@ Cuando termine la configuración inicial y se active la terminal, habrá que con
 - `Disk config`: selecciona la primera opción. Luego `btrfs`, `yes`, `compression`.
 - `Hostname`: es el nombre del pc.
 - `Authentication`: Crea un usuario y clave.
+- `Applications/Bluetooth`: `Enabled`.
 - `Applications/Audio`: `pipewire`.
-- `Applications/Bluetooth`: `enable`
+- `Applications/Print service`: `Enabled`. # No se que hace!!
 - `Network config`: `NetworkManager`.
 - `Timezone`: elegir al de Chile (UTC-3).
 Ahora solo se instala y se espera. Al final preguntará si queremos entrar al sistema, ponemos `yes`.
