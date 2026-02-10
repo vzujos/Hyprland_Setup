@@ -19,7 +19,8 @@ Cuando termine la configuración inicial y se active la terminal, habrá que con
 - `Disk config`: selecciona la primera opción. Luego `btrfs`, `yes`, `compression`.
 - `Hostname`: es el nombre del pc.
 - `Authentication`: Crea un usuario y clave.
-- `Audio`: `pipewire`.
+- `Applications/Audio`: `pipewire`.
+- `Applications/Bluetooth`: `enable`
 - `Network config`: `NetworkManager`.
 - `Timezone`: elegir al de Chile (UTC-3).
 Ahora solo se instala y se espera. Al final preguntará si queremos entrar al sistema, ponemos `yes`.
@@ -30,7 +31,7 @@ Ahora solo se instala y se espera. Al final preguntará si queremos entrar al si
 ## Paquetes iniciales
 
 Se debe correr en la terminal:
-- `sudo pacman -S kitty hyprland sddm`
+- `sudo pacman -S foot hyprland sddm` # pruebo foot en vez de kitty
 - `sudo systemctl enable sddm.service`
 - `sudo pacman -S nemo wofi nano man-db fastfetch`
 - `sudo pacman -S less git`
