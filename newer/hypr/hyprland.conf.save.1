@@ -1,0 +1,96 @@
+
+# #######################################################################################
+# HYPRLAND CONFIG.
+# #######################################################################################
+
+# https://wiki.hyprland.org/Configuring/
+
+
+################
+### MONITORS ###
+################
+
+monitor = eDP-1, 1366x768@60.06, auto, 1 # Ajustar segun PC
+monitor = , prefered, auto, 0.75
+# monitor = , addreserved, 0, 0, 0, 0
+
+
+#################
+### AUTOSTART ###
+#################
+
+# Autostart necessary processes (like notifications daemons, status bars, etc.)
+# Or execute your favorite apps at launch like this:
+
+# exec-once = nm-applet &
+exec-once = waybar & swaync & hypridle & hyprpaper
+#exec-once = swww-daemon # hyprpaper
+#exec-once = swww img ~/.config/hypr/theme/wallpaper1.jpg
+# tambien hay exec, exec-shutdown
+
+
+#############################
+### ENVIRONMENT VARIABLES ###
+#############################
+
+# See https://wiki.hyprland.org/Configuring/Environment-variables/
+
+env = GTK_THEME
+#env = XCURSOR_THEME,Adwaita
+env = XCURSOR_THEME,Bibata-Modern-Classic
+#env = XCURSOR_SIZE,24
+env = HYPRCURSOR_THEME,extracted_Bibata-Modern-Classic
+env = HYPRCURSOR_SIZE,24
+#exec-once=hyprctl setcursor Bibata-Modern-Classic 24
+
+env = HYPRLAND_TRADE = 0
+env = AQ_TRACE = 0
+
+#env = GBM_BACKEND,nvidia-drm
+#env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+#env = LIBVA_DRIVER_NAME,nvidia
+#__GL_GSYNC_ALLOWED
+
+
+###############
+### SOURCES ###
+###############
+
+source = ~/.config/hypr/myColors.conf
+source = ~/.config/hypr/myAnimations.conf
+source = ~/.config/hypr/myBinds.conf
+source = ~/.config/hypr/myWindowRules.conf
+
+
+#############
+### INPUT ###
+#############
+
+input {
+    kb_layout = latam
+    kb_variant =
+    kb_model =
+    kb_options =
+    kb_rules =
+
+    follow_mouse = 1
+    sensitivity = 0 # [-1.0 - 1.0], 0 means standard
+    # natural_scroll = true # ajustado en touchpad
+
+    touchpad {
+        natural_scroll = true
+    }
+}
+
+# gestures {
+#     workspace_swipe = true # 3 dedos
+#}
+
+
+##############
+### GROUPS ###
+##############
+
+group {
+    auto_group = true
+}
