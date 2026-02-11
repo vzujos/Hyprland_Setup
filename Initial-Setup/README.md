@@ -1,8 +1,8 @@
 # Installing Arch
 
 Lo primero es descargar la .iso y confirmar su integridad.
-Flashear en una usb y bootear desde ahí (o correr la .iso directo si se está en un virtual environment).
-- `Enter` en la primera opción.
+Flashear en una usb y bootear desde ahí (o correr la .iso directo si se está en un virtual environment--VM).
+
 Cuando termine la configuración inicial y se active la terminal, habrá que conectarse a internet (si se está en un VM, saltar este paso).
 
 ## Internet connection
@@ -24,12 +24,13 @@ Escribir: `archinstall`. Va a aparecer un script de configuración de instalaci�
 - `Applications/Print service`: `Enabled`. # No se que hace!!
 - `Network config`: `NetworkManager`.
 - `Timezone`: elegir al de Chile (UTC-3).
+
 Ahora solo se instala y se espera. Al final preguntará si queremos entrar al sistema, ponemos `yes`.
 (En este momento ya tenemos funcionando ArchLinux).
   VM: Si uno está en una VM, primero reiniciar y luego instalar los paquetes, para que no se instale en la iso.
 
-## Paquetes iniciales
 
+## Paquetes iniciales
 
 Se debe correr en la terminal:
 - `sudo pacman -S foot hyprland sddm` # pruebo foot en vez de kitty
