@@ -11,9 +11,9 @@ Cuando termine la configuración inicial y se active la terminal, habrá que con
 - Luego `station wlan0 scan`, `station wlan0 get-networks`.
 - `station wlan0 connect "tu red"`, y luego la contraseña si tuviera. Para comprobar la señal se usa: `station wlan0 show`. Al final poner `exit`.
 
-## Archinstall setup
+## Setup archinstall
 
-- Escribir: `archinstall`. Va a aparecer un script de configuración de instalación con las siguientes opciones:
+Escribir: `archinstall`. Va a aparecer un script de configuración de instalación con las siguientes opciones:
 - `Locales`: en distribución de teclado, poner `es`.
 -  `Mirrors`: seleccionar la región más cercana, y el repositorio adicional `multilib`.
 - `Disk config`: selecciona la primera opción. Luego `btrfs`, `yes`, `compression`.
@@ -27,6 +27,7 @@ Cuando termine la configuración inicial y se active la terminal, habrá que con
 Ahora solo se instala y se espera. Al final preguntará si queremos entrar al sistema, ponemos `yes`.
 (En este momento ya tenemos funcionando ArchLinux).
   VM: Si uno está en una VM, primero reiniciar y luego instalar los paquetes, para que no se instale en la iso.
+
 ## Paquetes iniciales
 
 
