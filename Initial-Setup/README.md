@@ -44,14 +44,15 @@ Se debe correr en la terminal:
 
 Se hace un reboot y al hacer login, se cambia el display manager a hyprland.
 Se instala:
-
+- `sudo pacman -S base-devel` (En caso de que lo siguiente no corra)
 - `git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
 - `yay -S hyprshot`
 - ` yay -S librewolf-bin`
-Esto es para ajustar el brillo
-- `sudo pacman -S brightnessctl`
-Esto para hacer copy-paste general
-- `sudo pacman -S wl-clipboard` (intentar que funcione nano antes de usarlo)
+- `sudo pacman -S brightnessctl` (Esto es para ajustar el brillo)
+- `sudo pacman -S wl-clipboard` (Esto para hacer copy-paste general, intentar que funcione nano antes de usarlo)
+
+
+Si se descarga todo desde 0 por github, se debe hacer ejecutables todos los scripts en .config/hypr/
 
 Todas las configuraciones de hyprland se hacen en:
 `~/.config/hypr/hyprland.conf`
