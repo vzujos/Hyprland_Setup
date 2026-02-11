@@ -19,9 +19,9 @@ Escribir: `archinstall`. Va a aparecer un script de configuración de instalaci�
 - `Disk config`: selecciona la primera opción. Luego `btrfs`, `yes`, `compression`.
 - `Hostname`: es el nombre del pc.
 - `Authentication`: Crea un usuario y clave.
-- `Applications/Bluetooth`: `Enabled`.
+- `Applications/Bluetooth`: `Enabled`. (configura `bluez` y `bluez-utils`)
 - `Applications/Audio`: `pipewire`.
-- `Applications/Print service`: `Enabled`. # No se que hace!!
+- `Applications/Print service`: `Enabled`. # No se que hace!! (configura `'cups', 'system-config-printer', 'cups-pk-helper'`)
 - `Network config`: `NetworkManager`.
 - `Timezone`: elegir al de Chile (UTC-3).
 
@@ -29,6 +29,7 @@ Ahora solo se instala y se espera. Al final preguntará si queremos entrar al si
 (En este momento ya tenemos funcionando ArchLinux).
   VM: Si uno está en una VM, primero reiniciar y luego instalar los paquetes, para que no se instale en la iso.
 
+Fuente: https://github.com/archlinux/archinstall
 
 ## Paquetes iniciales
 
