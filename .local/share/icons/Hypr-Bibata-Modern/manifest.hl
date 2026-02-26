@@ -1,0 +1,4 @@
+name = Hypr-Bibata-Modern
+description = Hypr version of Bibata Modern Classic extracted with hyprcursor-util
+version = 0.1
+cursors_directory = hyprcursors
