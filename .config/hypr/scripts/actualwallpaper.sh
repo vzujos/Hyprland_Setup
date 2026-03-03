@@ -13,7 +13,6 @@ if [ "$current_number" != "$workspace_number" ]; then
 	if [ -f "$new_wallpaper_path" ]; then
 	    hyprctl hyprpaper reload ,"$new_wallpaper_path"
 	else
-	    echo "el fondo no existee '$new_wallpaper_path'"
 		hyprctl hyprpaper reload ,"${current_wallpaper%wallpaper*}wallpaper1.jpg"
 	fi
 fi
