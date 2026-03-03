@@ -92,6 +92,7 @@ Recordar hacer:
 `sudo pacman -Syu` Para actualizar los repositorios, y luego poner los drivers con
 `sudo pacman -S nvidia nvidia-utils nvidia-settings`. (Esto es según mi gpu, varia en cada caso los paquetes)
 - fc-cache -fv ~/.local/share/fonts después de agregar fonts.
+- fc-list | grep ~/.local/share/fonts # para revisar
 
 # Configuración
 
