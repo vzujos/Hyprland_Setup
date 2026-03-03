@@ -1,15 +1,24 @@
 # Hyprland-Setup
+
 ***Info inicial para instalación Arch con Hyprland***
 
-## Configuraciones listas:
+## Configuraciones listas
+
 - Hypridle
 - Hyprlock
-## Configuraciones pendientes:
+- Hyprpaper
+
+## Configuraciones pendientes
+
 - Cambiar Background de bloqueo por el actual
-- Hyprpaper (falta guardar y configurar wallpapers)
-- actualwallpaper.sh (sirve para cambiar wallpapers automaticamente)
+- Revisar notification Daemon
+- Comprobar que esté instalado wireplumber, qt5-wayland, qt6-wayland, después de una instalación desde cero.
+- Revisar el uso e instalación de las fonts LISTO.
+- Revisar waybar/network.py
+- scroll up down en backlight y pulseaudio.
 
 ## Bluetooth
+
 Primero se instala:
 - `sudo pacman -S bluez bluez-utils` (creo)
 Luego se comprueba que esté cargado el módulo `btusb`
@@ -17,6 +26,7 @@ Luego se comprueba que esté cargado el módulo `btusb`
 - `systemctl start bluetooth.service`
 
 ## Internet
+
 para volver a activar la interntet:
 - `sudo pacman -S networkmanager`
 - `sudo systemctl enable NetworkManager`

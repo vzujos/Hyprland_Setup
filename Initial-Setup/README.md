@@ -14,8 +14,9 @@ Cuando termine la configuración inicial y se active la terminal, habrá que con
 ## Setup archinstall
 
 Escribir: `archinstall`. Va a aparecer un script de configuración de instalación con las siguientes opciones:
+
 - `Locales`: en distribución de teclado, poner `es`.
--  `Mirrors`: seleccionar la región más cercana, y el repositorio adicional `multilib`.
+- `Mirrors`: seleccionar la región más cercana, y el repositorio adicional `multilib`.
 - `Disk config`: selecciona la primera opción. Luego `btrfs`, `yes`, `compression`.
 - `Hostname`: es el nombre del pc.
 - `Authentication`: Crea un usuario y clave.
@@ -34,6 +35,7 @@ Fuente: https://github.com/archlinux/archinstall
 ## Paquetes iniciales
 
 Se debe correr en la terminal:
+
 - `sudo pacman -S foot hyprland sddm` # pruebo foot en vez de kitty
 - `sudo systemctl enable sddm.service`
 - `# sudo pacman -S nemo wofi nano man-db fastfetch`
@@ -47,18 +49,20 @@ Se debe correr en la terminal:
 
 Se hace un reboot y al hacer login, se cambia el display manager a hyprland.
 Se instala:
+
 - `sudo pacman -S base-devel` (En caso de que lo siguiente no corra)
 - `git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
 - `yay -S hyprshot`
-- ` yay -S librewolf-bin`
+- `yay -S librewolf-bin`
 - `sudo pacman -S brightnessctl` (Esto es para ajustar el brillo)
 - `sudo pacman -S wl-clipboard` (Esto para hacer copy-paste general, intentar que funcione nano antes de usarlo)
-
+- `sudo pacman -S power-profiles-daemon` (esto es para los modos de energía)
 
 Si se descarga todo desde 0 por github, se debe hacer ejecutables todos los scripts en .config/hypr/
 
 Todas las configuraciones de hyprland se hacen en:
 `~/.config/hypr/hyprland.conf`
+
 - `$fileManager = nemo`
 - `exec-once waybar & swaync`
 `~/.config/hypr/hyprlock.conf`
@@ -66,10 +70,10 @@ Todas las configuraciones de hyprland se hacen en:
 
 Todo el resto ha sido configurar los .conf de a poco y ver que me acomoda a mí.
 
-
 Según un tutorial, hay que hacer tb
 `sudo pacman -S wayland wayland-protocols xorg-xwayland`.
 Luego del **begin hyprland**, hace:
+
 - `sudo yay -S paru`
 Luego, se descarga el .zip de Hyde minimal dots, y se hace
 - `cd ~/Downloads`
@@ -80,16 +84,19 @@ Luego, se descarga el .zip de Hyde minimal dots, y se hace
 Desde aqui, se sigue la instalación (cuidado que instala drivers de nvidia), y al final hay que hacer un `reboot`.
 
 ### Otros útiles
+
 - fastfetch, less, man-db, wev
 - libnotify (notify-send "texto")
 
-
-Recordar hacer: 
+Recordar hacer:
 `sudo pacman -Syu` Para actualizar los repositorios, y luego poner los drivers con
 `sudo pacman -S nvidia nvidia-utils nvidia-settings`. (Esto es según mi gpu, varia en cada caso los paquetes)
+- fc-cache -fv ~/.local/share/fonts después de agregar fonts.
 
 # Configuración
+
 - ### Monitores
+
  (*~/.config/hypr/hyprland.conf*)
 ```
 monitor = eDP-1, {resol}, auto, 1
