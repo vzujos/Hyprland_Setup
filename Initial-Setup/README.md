@@ -19,7 +19,11 @@ Cuando termine la configuración inicial y se abra la terminal, habrá que conec
 - Para comprobar la señal: `station wlan0 show`.
 - Al final poner `exit`.
 
-## Paso 2: archinstall
+## Paso 2: Particiones (dual boot)
+
+
+
+## Paso 3: archinstall
 
 Escribir: `archinstall`. 
 
@@ -36,11 +40,35 @@ Va a aparecer un script de configuración de instalación con las siguientes opc
 - `Network config`: `NetworkManager`.
 - `Timezone`: Chile (UTC-3).
 
-Ahora solo se instala y se espera. Al final preguntará si queremos entrar al sistema, ponemos `yes`.
+
+### Normal o VM: 
+
+`Disk config`: selecciona la primera opción. Luego `btrfs`, `yes`, `compression`.
+
+### Dual Boot:
+
+(Se debe haber creado las particiones en el paso 2)
+
+`Disk config`: `Manual Partitioning`, selecciona el disco.
+
+En la lista de particiones, seleccionar las particiones creadas:
+- boot (1Gb): `Assign mountpoint` y `/boot`. Luego `Mark to be formated`, y `Change filesystem` a `fat32`.
+- linux: `Assign mountpoint` y `/`. Luego `Change filesystem` a `ext4`.
+
+
+
+
+
+Ahora se instala y se espera.
+
+Al final preguntará si queremos entrar al sistema, ponemos `yes`.
 (En este momento ya tenemos funcionando ArchLinux).
   VM: Si uno está en una VM, primero reiniciar y luego instalar los paquetes, para que no se instale en la iso.
 
 Fuente: https://github.com/archlinux/archinstall
+
+
+
 
 ## Paquetes iniciales
 
