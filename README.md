@@ -17,6 +17,10 @@
 - Revisar waybar/network.py
 - scroll up down en backlight y pulseaudio.
 
+### Actual
+
+- Parece que el idioma de Arch hace que falle status-network.sh en hyprlock
+
 ## Bluetooth
 
 Primero se instala:
@@ -38,6 +42,16 @@ Para conectarse a una nueva red:
 - Iconos (`~/.local/share/icons/Icon`): "Tela icon theme"
 - Cursor (`~/.local/share/icons/Cursor`): "Bibata Modern Classic"
 - Fonts (`~/.local/share/fonts`): "Miracode", "otf-font-awesome" (creo)
+
+### Autenthentication daemon
+
+- hyprpolkitagent
+
+## Cosas que estoy instalando
+
+- hyprpicker
+- cliphist para el historial de copy paste
+- ani-cli
 
 ## Falta completar
 ### Waybar/config.jsonc
