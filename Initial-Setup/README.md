@@ -1,21 +1,31 @@
 # Installing Arch
 
-Lo primero es descargar la .iso y confirmar su integridad.
-Flashear en una usb y bootear desde ahí (o correr la .iso directo si se está en un virtual environment--VM).
+## Paso 0: Descargar .iso
 
-Cuando termine la configuración inicial y se active la terminal, habrá que conectarse a internet (si se está en un VM, saltar este paso).
+Lo primero es descargar la `.iso` y confirmar su integridad.
+Flashear en una usb (eg. con rufus) y bootear desde ahí.
 
-## Internet connection
+(Si se está en una Virtual Machine -- VM, correr el archivo `.iso`)
+
+## Paso 1: Internet
+
+Cuando termine la configuración inicial y se abra la terminal, habrá que conectarse a internet.
+
+(Saltar este paso en una VM)
 
 - Escribir `iwctl`, `device list`.
 - Luego `station wlan0 scan`, `station wlan0 get-networks`.
-- `station wlan0 connect "tu red"`, y luego la contraseña si tuviera. Para comprobar la señal se usa: `station wlan0 show`. Al final poner `exit`.
+- `station wlan0 connect "tu red"`, `"contraseña"`.
+- Para comprobar la señal: `station wlan0 show`.
+- Al final poner `exit`.
 
-## Setup archinstall
+## Paso 2: archinstall
 
-Escribir: `archinstall`. Va a aparecer un script de configuración de instalación con las siguientes opciones:
+Escribir: `archinstall`. 
 
-- `Locales`: en distribución de teclado, poner `es`.
+Va a aparecer un script de configuración de instalación con las siguientes opciones:
+
+- `Locales`: en distribución de teclado, poner `es` o `latam`.
 - `Mirrors`: seleccionar la región más cercana, y el repositorio adicional `multilib`.
 - `Disk config`: selecciona la primera opción. Luego `btrfs`, `yes`, `compression`.
 - `Hostname`: es el nombre del pc.
@@ -24,7 +34,7 @@ Escribir: `archinstall`. Va a aparecer un script de configuración de instalaci�
 - `Applications/Audio`: `pipewire`.
 - `Applications/Print service`: `Enabled`. # No se que hace!! (configura `'cups', 'system-config-printer', 'cups-pk-helper'`)
 - `Network config`: `NetworkManager`.
-- `Timezone`: elegir al de Chile (UTC-3).
+- `Timezone`: Chile (UTC-3).
 
 Ahora solo se instala y se espera. Al final preguntará si queremos entrar al sistema, ponemos `yes`.
 (En este momento ya tenemos funcionando ArchLinux).
