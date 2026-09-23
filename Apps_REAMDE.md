@@ -214,9 +214,7 @@ https://wiki.archlinux.org/title/List_of_applications
 
   
 ## Financial management:
-- Beancount — A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
-- hledger — An accounting program for tracking money, time, or any other commodity, using double-entry accounting and a simple, editable file format. hledger is inspired by and largely compatible with ledger.
-- GnuCash — Financial application that implements a double-entry book-keeping system with features for small business accounting.
+1. Beancount — A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
   
 ### ERPs:
 - Odoo — Open source ERP system purely in Python. Previously known as OpenERP.
