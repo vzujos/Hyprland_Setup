@@ -235,8 +235,14 @@ https://wiki.archlinux.org/title/List_of_applications
 
 ---  
 # Promt para comparar
+Context:
+
+I use hyprland on arch linux, i prefer light modern gui rather than old tui, as long as it uses few dependencies and unless is modern tui.
+
+Task:
+
 Can you make a comparison between ____ for linux to search for the overall best and wich ones i should avoid?
-Start removing options based on the amount of features they share.
+Start removing options based on the amount of features they share, independent of my preferences, and then compare the options considerin my preferences.
 This is a (non extensive) list of programs:
 
 
