@@ -200,7 +200,6 @@ https://wiki.archlinux.org/title/List_of_applications
 ## Time management:
 1. Merkuro Calendar — Calendar application using Akonadi that supports both local and online calendars: Nextcloud, Google Calendar, Outlook, Caldav and more. Part of kde-pim.
 2. khal — Command-line (non-interactive) and ncurses (interactive) calendar system (supports CalDAV)
-3. etmtk (Event and Task Manager) — Simple application with a "Getting Things Done!" approach to handling events, tasks, activities, reminders and projects.
 - Calcurse — Text-based ncurses calendar and scheduling system (supports CalDAV)
 - gcalcli — Command-line (non-interactive) Google Calendar for event management and agendas.
 - Planify
@@ -240,7 +239,7 @@ I use hyprland on arch linux, i prefer native light modern gui rather than old t
 
 Task:
 Can you make a comparison between ____ for linux to search for the overall best and wich ones i should avoid?
-Start removing options based on the amount of features they share, independent of my preferences, and then compare the options considerin my preferences.
+Start removing options based on the amount of features they share independent of my preferences, make a comparison table of the features, and then compare the options considerin my preferences. Try keeping an option gui oriented and another tui oriented.
 
 This is a (non extensive) list of programs:
 
