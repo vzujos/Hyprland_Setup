@@ -86,8 +86,6 @@ https://wiki.archlinux.org/title/List_of_applications
 
 **Camara web**:
 - Webcamoid — Full featured webcam suite.
-- Guvcview — Simple interface for capturing and viewing video from v4l2 devices.4
-- Kamoso — Webcam recorder from KDE community. Part of kde-multimedia.
 - cameractrls — Command line and graphical application for configuring v4l2 devices.
 - v4l-utils — Provides a series of utilities for media devices.
 
