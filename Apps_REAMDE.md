@@ -128,9 +128,11 @@ https://wiki.archlinux.org/title/List_of_applications
     
 **E-book**:
 - Calibre — E-book library management application that can also edit EPUB files, convert between different formats and sync with a variety of e-book readers. Supported formats include CHM, Comicbook, DjVu, DOCX, EPUB, FictionBook, HTML, HTMLZ, Kindle, LIT, LRF, Mobipocket, ODT, PDF, PRC, PDB, PML, RB, RTF, SNB, TCR, TXT and TXTZ.
-- Foliate — Simple and modern GTK eBook reader. Supports EPUB, Mobipocket, Kindle, FictionBook, and Comicbook formats.
-- KOReader — An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
 - Sigil — WYSIWYG EPUB e-book editor.
+- Foliate — Simple and modern GTK eBook reader. Supports EPUB, Mobipocket, Kindle, FictionBook, and Comicbook formats.
+- Bookokrat
+### Ebook exclusive
+- KOReader — An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
 
 
 # Internet section
@@ -138,13 +140,8 @@ https://wiki.archlinux.org/title/List_of_applications
 ## vpn
 1. Mullvad — A GUI client for the Mullvad VPN service
 2. WireGuard — Next generation secure network tunnel
-3. OpenConnect — Supports Cisco and Juniper VPNs.
-4. ProtonVPN — VPN provider that uses the OpenVPN and WireGuard protocol.
-5. strongSwan — IPsec-based VPN Solution.
-6. Nebula — A mesh VPN network
-- NetworkManager — Supports a variety of protocols (e.g. MS, Cisco, Fortinet) via a plugin system.
-- GlobalProtect-openconnect — A GlobalProtect VPN client (GUI) for Linux, based on OpenConnect and built with Qt5, supports SAML auth mode.
-- OpenVPN — To connect to OpenVPN VPNs.
+3. ProtonVPN — VPN provider that uses the OpenVPN and WireGuard protocol.
+4. NetworkManager — Supports a variety of protocols (e.g. MS, Cisco, Fortinet) via a plugin system.
 
 
 # Utilities section
