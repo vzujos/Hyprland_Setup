@@ -119,7 +119,6 @@ https://wiki.archlinux.org/title/List_of_applications
 
 **Editors**:
 - PDF Arranger — Helps merge or split pdf documents and rotate, crop and rearrange pages. It is a maintained fork of PDF-Shuffler.
-- Master PDF Editor — Functional proprietary PDF editor. Latest version free for non-commercial use. The -free package is outdated but lacks a watermark.
 - PDF4QT — Open source PDF editor.
 - QPDF — Content-preserving PDF transformation system.
     
