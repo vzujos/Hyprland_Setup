@@ -113,7 +113,6 @@ https://wiki.archlinux.org/title/List_of_applications
 ## PDF
 
 **Viewers**:
-- Evince — Document viewer for GNOME using GTK. Supports DjVu, DVI, EPS, PDF, PostScript, TIFF, XPS and Comicbook.
 - Okular — Universal document viewer for KDE. Supports CHM, Comicbook, DjVu, DVI, EPUB, FictionBook, Mobipocket, ODT, PDF, Plucker, PostScript, TIFF and XPS. Part of kde-graphics.
 - Sioyek — Lightweight PDF viewer based on MuPDF with features designed for viewing research papers and technical books, e.g., marking, bookmarking, highlighting, searchable command palette, jumping to references, and more.
 - Zathura — Highly customizable and functional document viewer (plugin based). Supports PDF, DjVu, PostScript and Comicbook.
